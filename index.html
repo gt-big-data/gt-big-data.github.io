@@ -1,0 +1,67 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>GT Big Data Club</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#FFF">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#FFF">
+</head>
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#home" class="scroll">Home</a></li>
+						<li><a href="#about" class="scroll">About</a></li>
+						<li><a href="#projects" class="scroll">Projects</a></li>
+						<li><a href="#resources" class="scroll">Resources</a></li>
+					</ul>
+				</div>
+			</nav>
+		<div class="page" id="home">
+
+			<br>
+			<br>
+			<img src="BDCLogoBetter.svg" alt="" height=30%>
+			<h1>Big Data Club</h1>
+			<p> Meetings every Monday at 6.30 PM in CoC 017 </p>
+			<a href="https://github.com/gt-big-data"><i class="fa fa-github fa-3x"></i></a>
+			<a href="https://www.facebook.com/gtbigdataclub"><i class="fa fa-facebook fa-3x"></i></a>
+		</div>
+
+		<div class="page" id="about">
+			<h2>About</h2>
+			<p>A student organization of the College Of Computing at Georgia Tech.</p>
+
+			<p>We work on projects set by the group related to Big Data.
+			No skill is needed to join the Org, and there are no membership dues.
+			Make sure to check out our previous projects, sign up to our email list and see what we plan for the 2017-2018 academic year!</p>
+		</div>
+
+		<div class="page" id="projects">
+			<h2>Projects</h2>
+		</div>
+
+		<div class="page" id="resources">
+			<h2>Resources</h2>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<script>
+	$(function() {
+		$(".scroll").click(function() {		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
+	});
+</script>
+</body>
+</html>

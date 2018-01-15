@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2);
+
+body {
+    background-color: #D0D0D0;
+	font-family: "Exo 2";
+	text-align: center;
+	margin-top: 40px;
+}
+
+h1 {
+	font-size: 10em;
+}
+
+h2 {
+	font-size: 6em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.page {
+    height:100vh;
+    padding-top: 50px;
+	margin-top: -50px;
+}
+
+i {
+    margin-right:10px;
+    margin-left:10px;
+}
+
+a > i{
+	color:#333;
+}
+
+a > i:hover{
+	color: red;
+}
+
+li > a{
+	font-size:1.25em;
+}
+
+ul.nav a:hover {
+	color: black !important;
+}
+
+.navbar{
+	background-color: #D0D0D0;
+	border: 0px;
+}
