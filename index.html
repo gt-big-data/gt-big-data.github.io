@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
@@ -11,21 +11,34 @@
 	<meta name="msapplication-TileColor" content="#FFF">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#FFF">
+	<meta charset="UTF-8">
 </head>
 <body>
 	<div class="container-fluid">
 		<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#home" class="scroll">Home</a></li>
+			<div class="container-fluid">
+				<div class="navbar-header">
+	            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	              		<span class="sr-only">Toggle navigation</span>
+	              		<span class="icon-bar"></span>
+	              		<span class="icon-bar"></span>
+	              		<span class="icon-bar"></span>
+	            	</button>
+	            	<a class="navbar-brand" href="#home">Big Data Club</a>
+	        	</div>
+				<div id="navbar" class="collapse navbar-collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li><a href="#home" class="scroll">Home</a></li>
 						<li><a href="#about" class="scroll">About</a></li>
 						<li><a href="#projects" class="scroll">Projects</a></li>
 						<li><a href="#resources" class="scroll">Resources</a></li>
 					</ul>
 				</div>
-			</nav>
-		<div class="page" id="home">
-
+			</div>
+		</nav>
+	</div>
+	<div class="page page1" id="home">
+		<div class="container-fluid">
 			<br>
 			<br>
 			<img src="BDCLogoBetter.svg" alt="" height=30%>
@@ -35,24 +48,42 @@
 			<a href="https://twitter.com/gtbigdataclub"><i class="fa fa-twitter fa-3x"></i></a>
 			<a href="https://www.facebook.com/gtbigdataclub/"><i class="fa fa-facebook fa-3x"></i></a>
 			<a href="https://bigdataclub.slack.com/"><i class="fa fa-slack fa-3x"></i></a>
-			<a href="mailto:gtbigdata@gmail.com"><i class="far fa-envelope fa-3x"></i></a>
+			<a href="mailto:gtbigdata@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
 		</div>
+	</div>
 
-		<div class="page" id="about">
+	<div class="page page3" id="about">
+		<div class="container-fluid">
 			<h2>About</h2>
-			<p>A student organization of the College Of Computing at Georgia Tech.</p>
+			<p>We are a student organization of the College Of Computing at Georgia Tech.</p>
 
 			<p>We work on projects set by the group related to Big Data.
 			No skill is needed to join the Org, and there are no membership dues.
 			Make sure to check out our previous projects, sign up to our email list and see what we plan for the 2017-2018 academic year!</p>
 		</div>
+	</div>
 
-		<div class="page" id="projects">
+	<div class="page page1" id="projects">
+		<div class="container-fluid">
 			<h2>Projects</h2>
+			<ul>
+				<li><a href="retinanews.net">Retina News</a></li>
+				<li><a href="https://gt-big-data.github.io/SuperBowl2014/">Tweet Visualization </a></li>
+				<li><a href="https://github.com/gt-big-data/movie-lens">Movie Recommendation Website</a></li>
+				<li><a href="https://gt-big-data.github.io/plottablejs-tutorial/">Visualizing Pokemon Stats</a></li>
+				<li><a href="https://github.com/gt-big-data/twitter-dashboard">Realtime Twitter dashboard</a></li>
+			</ul>
 		</div>
+	</div>
 
-		<div class="page" id="resources">
+	<div class="page page3" id="resources">
+		<div class="container-fluid">
 			<h2>Resources</h2>
+			<ul>
+				<li><a href="https://www.slideshare.net/larsga/introduction-to-big-datamachine-learning">Good introduction to Big Data</a></li>
+				<li><a href="https://drive.google.com/drive/folders/110IynZz01oCzobH2UH0qaKt1v6DBFBDu?usp=sharing">Previous Presentations</a></li>
+				<li><a href="https://github.com/gt-big-data/wiki/wiki">Our Wiki</a></li>
+			</ul>
 		</div>
 	</div>
 
@@ -60,9 +91,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 	<script>
 	$(function() {
-		$(".scroll").click(function() {		
-			event.preventDefault();
+		$(".scroll").click(function() {
 			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+			return false;
 		});
 	});
 </script>
