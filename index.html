@@ -15,36 +15,34 @@
 	<meta charset="UTF-8">
 </head>
 <body>
-	<div class="container-fluid">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-	            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	              		<span class="sr-only">Toggle navigation</span>
-	              		<span class="icon-bar"></span>
-	              		<span class="icon-bar"></span>
-	              		<span class="icon-bar"></span>
-	            	</button>
-	            	<a class="navbar-brand" href="#home">Big Data Club</a>
-	        	</div>
-				<div id="navbar" class="collapse navbar-collapse navbar-right">
-					<ul class="nav navbar-nav">
-						<li><a href="#home" class="scroll">Home</a></li>
-						<li><a href="#about" class="scroll">About</a></li>
-						<li><a href="#projects" class="scroll">Projects</a></li>
-						<li><a href="#resources" class="scroll">Resources</a></li>
-					</ul>
-				</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              		<span class="sr-only">Toggle navigation</span>
+              		<span class="icon-bar"></span>
+              		<span class="icon-bar"></span>
+              		<span class="icon-bar"></span>
+            	</button>
+            	<a class="navbar-brand scroll" href="#home">Big Data Club</a>
+        	</div>
+			<div id="navbar" class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="#home" class="scroll">Home</a></li>
+					<li><a href="#about" class="scroll">About</a></li>
+					<li><a href="#projects" class="scroll">Projects</a></li>
+					<li><a href="#resources" class="scroll">Resources</a></li>
+				</ul>
 			</div>
-		</nav>
-	</div>
-	<div class="page page1" id="home">
+		</div>
+	</nav>
+	<div class="jumbotron page1" id="home">
 		<div class="container-fluid">
 			<br>
 			<br>
 			<img src="BDCLogoBetter.svg" alt="" height=30%>
 			<h1>Big Data Club</h1>
-			<p> Meetings every Monday at 6.30 PM in CoC 017 </p>
+			<h3> Meetings every Monday at 6.30 PM in CoC 017 </h3>
 			<a href="https://github.com/gt-big-data/"><i class="fa fa-github fa-3x"></i></a>
 			<a href="https://twitter.com/gtbigdataclub"><i class="fa fa-twitter fa-3x"></i></a>
 			<a href="https://www.facebook.com/gtbigdataclub/"><i class="fa fa-facebook fa-3x"></i></a>
@@ -53,31 +51,66 @@
 		</div>
 	</div>
 
-	<div class="page page3" id="about">
-		<div class="container-fluid">
-			<h2>About</h2>
-			<p>We are a student organization of the College Of Computing at Georgia Tech.</p>
+		<div class="jumbotron page2" id="about">
+			<div class="container-fluid">
+				<h2>About</h2>
+				<p>We are a student organization of the College Of Computing at Georgia Tech.</p>
 
-			<p>We work on projects set by the group related to Big Data.
-			No skill is needed to join the Org, and there are no membership dues.
-			Make sure to check out our previous projects, sign up to our email list and see what we plan for the 2017-2018 academic year!</p>
+				<p>We work on projects set by the group related to Big Data.
+				No skill is needed to join the Org, and there are no membership dues.</p>
+				<p> Make sure to check out our previous projects, sign up to our email list and see what we plan for the 2017-2018 academic year!</p>
+			</div>
 		</div>
-	</div>
 
-	<div class="page page1" id="projects">
-		<div class="container-fluid">
-			<h2>Projects</h2>
-			<ul>
-				<li><a href="retinanews.net">Retina News</a></li>
-				<li><a href="https://gt-big-data.github.io/SuperBowl2014/">Tweet Visualization </a></li>
-				<li><a href="https://github.com/gt-big-data/movie-lens">Movie Recommendation Website</a></li>
-				<li><a href="https://gt-big-data.github.io/plottablejs-tutorial/">Visualizing Pokemon Stats</a></li>
-				<li><a href="https://github.com/gt-big-data/twitter-dashboard">Realtime Twitter dashboard</a></li>
-			</ul>
+		<div class="jumbotron page1" id="projects">
+			<div class="container-fluid">
+				<h2>Projects</h2>
+				<br>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="project">
+							<h4><a href="https://github.com/gt-big-data/ApiAndCrawler">Twitter Insights</a></h4>
+							Our current project. Long- term project analyzing the differences in Twitter semantics between different regions.
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="project">
+							<h4><a href="retinanews.net">Retina News</a></h4>
+							Web application that organizes news articles to serve them intelligently to the user. Aggregates headlines and articles from a variety of sources, and personalizes delivery of these articles.
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="project">
+							<h4><a href="https://gt-big-data.github.io/SuperBowl2014/">Tweet Visualization </a></h4>
+							See how the Twitter feed of thousands of users changed from moment to moment during the 2014 Super Bowl.
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="project">
+							<h4><a href="https://gt-big-data.github.io/plottablejs-tutorial/">Visualizing Pokemon Stats</a></h4>
+							D3.js visualization of all first generation Pokemon, grouping, graphing and comparing them by their base stats.
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="project">
+							<h4><a href="https://github.com/gt-big-data/movie-lens">Movie Recommendation Website</a></h4>
+							Still looking for the right movie to watch next? This application will compare your tastes with a database of hundreds of other users to recommend you something new.
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="project">
+							<h4><a href="https://github.com/gt-big-data/twitter-dashboard">Realtime Twitter Dashboard</a></h4>
+							Visualizing Tweets across the world in real time.
+						</div>
+					</div>
+				</div>
+			</div>	
 		</div>
-	</div>
 
-	<div class="page page3" id="resources">
+	<div class="jumbotron page2" id="resources">
 		<div class="container-fluid">
 			<h2>Resources</h2>
 			<ul>
@@ -93,7 +126,7 @@
 	<script>
 	$(function() {
 		$(".scroll").click(function() {
-			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+			$('html,body').animate({scrollTop:$(this.hash).offset().top - 80}, 600);
 			return false;
 		});
 	});
