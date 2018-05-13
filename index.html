@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 	<title>GT Big Data Club</title>
@@ -14,18 +15,18 @@
 	<meta name="theme-color" content="#FFF">
 	<meta charset="UTF-8">
 </head>
-<body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+	<!-- <nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              		<span class="sr-only">Toggle navigation</span>
-              		<span class="icon-bar"></span>
-              		<span class="icon-bar"></span>
-              		<span class="icon-bar"></span>
-            	</button>
-            	<a class="navbar-brand scroll" href="#home">Big Data Club</a>
-        	</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand scroll" href="#home">Big Data Club</a>
+			</div>
 			<div id="navbar" class="collapse navbar-collapse navbar-right">
 				<ul class="nav navbar-nav">
 					<li><a href="#home" class="scroll">Home</a></li>
@@ -35,7 +36,35 @@
 				</ul>
 			</div>
 		</div>
+	</nav> -->
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<!-- Brand -->
+		<a class="navbar-brand scroll" href="#">Big Data Club</a>
+
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link scroll" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link scroll" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link scroll" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link scroll" href="#resources">Resources</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
+
 	<div class="jumbotron page1" id="home">
 		<div class="container-fluid">
 			<br>
@@ -44,10 +73,10 @@
 			<h1>Big Data Club</h1>
 			<h3> Meetings every Monday at 6.30 PM in CoC 017 </h3>
 			<a href="https://github.com/gt-big-data/"><i class="fa fa-github fa-3x"></i></a>
-			<a href="https://twitter.com/gtbigdataclub"><i class="fa fa-twitter fa-3x"></i></a>
-			<a href="https://www.facebook.com/gtbigdataclub/"><i class="fa fa-facebook fa-3x"></i></a>
 			<a href="https://bigdataclub.slack.com/"><i class="fa fa-slack fa-3x"></i></a>
+			<a href="https://www.facebook.com/gtbigdataclub/"><i class="fa fa-facebook fa-3x"></i></a>
 			<a href="mailto:gtbigdata@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+			<a href="https://twitter.com/gtbigdataclub"><i class="fa fa-twitter fa-3x"></i></a>
 		</div>
 	</div>
 
@@ -66,42 +95,39 @@
 			<div class="container-fluid">
 				<h2>Projects</h2>
 				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="project">
+				<div class="card-columns">
+					<div class="card">
+						<div class="card-body">
 							<h4><a href="https://github.com/gt-big-data/ApiAndCrawler">Twitter Insights</a></h4>
 							Our current project. Long- term project analyzing the differences in Twitter semantics between different regions.
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="project">
-							<h4><a href="retinanews.net">Retina News</a></h4>
-							Web application that organizes news articles to serve them intelligently to the user. Aggregates headlines and articles from a variety of sources, and personalizes delivery of these articles.
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="project">
-							<h4><a href="https://gt-big-data.github.io/SuperBowl2014/">Tweet Visualization </a></h4>
-							See how the Twitter feed of thousands of users changed from moment to moment during the 2014 Super Bowl.
-						</div>
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="project">
-							<h4><a href="https://gt-big-data.github.io/plottablejs-tutorial/">Visualizing Pokemon Stats</a></h4>
-							D3.js visualization of all first generation Pokemon, grouping, graphing and comparing them by their base stats.
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="project">
+					<div class="card">
+						<div class="card-body">
 							<h4><a href="https://github.com/gt-big-data/movie-lens">Movie Recommendation Website</a></h4>
 							Still looking for the right movie to watch next? This application will compare your tastes with a database of hundreds of other users to recommend you something new.
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="project">
+					<div class="card">
+						<div class="card-body">
+							<h4><a href="http://retinanews.net">Retina News</a></h4>
+							Web application that organizes news articles to serve them intelligently to the user. Aggregates headlines and articles from a variety of sources, and personalizes delivery of these articles.
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h4><a href="https://gt-big-data.github.io/plottablejs-tutorial/">Visualizing Pokemon Stats</a></h4>
+							D3.js visualization of all first generation Pokemon, grouping, graphing and comparing them by their base stats.
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h4><a href="https://gt-big-data.github.io/SuperBowl2014/">Tweet Visualization </a></h4>
+							See how the Twitter feed of thousands of users changed from moment to moment during the 2014 Super Bowl.
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
 							<h4><a href="https://github.com/gt-big-data/twitter-dashboard">Realtime Twitter Dashboard</a></h4>
 							Visualizing Tweets across the world in real time.
 						</div>
@@ -112,7 +138,7 @@
 
 	<div class="jumbotron page2" id="resources">
 		<div class="container-fluid">
-			<h2>Resources</h2>
+			<h2>Getting Started</h2>
 			<ul>
 				<li><a href="https://www.slideshare.net/larsga/introduction-to-big-datamachine-learning">Good introduction to Big Data</a></li>
 				<li><a href="https://drive.google.com/drive/folders/110IynZz01oCzobH2UH0qaKt1v6DBFBDu?usp=sharing">Previous Presentations</a></li>
@@ -122,7 +148,7 @@
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
 	<script>
 	$(function() {
 		$(".scroll").click(function() {
