@@ -1,21 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Exo+2);
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+/*@import url('https://fonts.googleapis.com/css?family=Gentium+Basic')*/
 
 body {
 	background-color: #D0D0D0;
-	font-family: "Exo 2";
-	text-align: center;
+	text-align: center !important;
 }
 
 .jumbotron h1 {
-	font-size: 10vw;
+	font-family: "Exo 2", sans-serif;
+	font-size: 8em;
 }
 
 .jumbotron h2 {
-	font-size: 6em;
+	font-size: 4em;
+	font-family: "Exo 2", sans-serif;
 }
 
 .jumbotron h3 {
 	font-size: 3em;
+	font-family: "Exo 2", sans-serif;
 }
 
 p {
@@ -24,12 +27,11 @@ p {
 
 .jumbotron {
 	min-height: 100vh;
-	padding-top: 40px;
 	padding: 10px;
 }
 
 .page1 {
-	background-color: white;
+	background-color: #FFF;
 }
 
 .page2 {
@@ -81,6 +83,7 @@ a.navbar-brand:hover {
 }
 
 .navbar a.navbar-brand {
+	font-family: "Exo 2", sans-serif;
 	font-size: 1.7em;
 	color: white;
 }

@@ -15,28 +15,7 @@
 	<meta name="theme-color" content="#FFF">
 	<meta charset="UTF-8">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="70">
-	<!-- <nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand scroll" href="#home">Big Data Club</a>
-			</div>
-			<div id="navbar" class="collapse navbar-collapse navbar-right">
-				<ul class="nav navbar-nav">
-					<li><a href="#home" class="scroll">Home</a></li>
-					<li><a href="#about" class="scroll">About</a></li>
-					<li><a href="#projects" class="scroll">Projects</a></li>
-					<li><a href="#resources" class="scroll">Resources</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav> -->
+<body data-spy="scroll" data-target=".navbar" data-offset="78">
 	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
 		<!-- Brand -->
 		<a class="navbar-brand scroll" href="#">Big Data Club</a>
@@ -65,13 +44,13 @@
 		</div>
 	</nav>
 
-	<div class="jumbotron page1" id="home">
+	<div class="jumbotron jumbotron-fluid page1" id="home">
 		<div class="container-fluid">
 			<br>
 			<br>
 			<img src="BDCLogoBetter.svg" alt="" height=30%>
 			<h1>Big Data Club</h1>
-			<h3> Meetings every Monday at 6.30 PM in CoC 017 </h3>
+			<h3> Meetings every <b>Monday</b> at <b>6.30 PM</b> in <b>CoC 017</b> </h3>
 			<a href="https://github.com/gt-big-data/"><i class="fa fa-github fa-3x"></i></a>
 			<a href="https://bigdataclub.slack.com/"><i class="fa fa-slack fa-3x"></i></a>
 			<a href="https://www.facebook.com/gtbigdataclub/"><i class="fa fa-facebook fa-3x"></i></a>
@@ -80,7 +59,7 @@
 		</div>
 	</div>
 
-		<div class="jumbotron page2" id="about">
+		<div class="jumbotron jumbotron-fluid page2" id="about">
 			<div class="container-fluid">
 				<h2>About</h2>
 				<p>We are a student organization of the College Of Computing at Georgia Tech.</p>
@@ -91,7 +70,7 @@
 			</div>
 		</div>
 
-		<div class="jumbotron page1" id="projects">
+		<div class="jumbotron jumbotron-fluid page1" id="projects">
 			<div class="container-fluid">
 				<h2>Projects</h2>
 				<br>
@@ -99,14 +78,14 @@
 					<div class="card">
 						<img src="images/comment_communities.png" alt="" class="card-img-top">
 						<div class="card-body">
-							<h4 class="card-title"><a href="https://github.com/gt-big-data/ApiAndCrawler">Reddit Comment Communities</a></h4>
-							Our current project. Long- term project analyzing the differences in Twitter semantics between different regions.
+							<h4 class="card-title"><a href="https://gt-big-data.github.io/comment-communities/">Reddit Comment Communities</a></h4>
+							Visualize how different comment threads on Reddit are growing in real time with D3.js
 						</div>
 					</div>
 					<div class="card">
 						<div class="card-body">
 							<h4 class="card-title"><a href="https://github.com/gt-big-data/ApiAndCrawler">Twitter Insights</a></h4>
-							Our current project. Long- term project analyzing the differences in Twitter semantics between different regions.
+							Our current project. Long term project analyzing the differences in semantics of Tweets between different regions.
 						</div>
 					</div>
 					<div class="card">
@@ -146,14 +125,29 @@
 			</div>	
 		</div>
 
-	<div class="jumbotron page2" id="resources">
+	<div class="jumbotron jumbotron-fluid page2" id="resources">
 		<div class="container-fluid">
 			<h2>Getting Started</h2>
-			<ul>
-				<li><a href="https://www.slideshare.net/larsga/introduction-to-big-datamachine-learning">Good introduction to Big Data</a></li>
-				<li><a href="https://drive.google.com/drive/folders/110IynZz01oCzobH2UH0qaKt1v6DBFBDu?usp=sharing">Previous Presentations</a></li>
-				<li><a href="https://github.com/gt-big-data/wiki/wiki">Our Wiki</a></li>
-			</ul>
+			<div class="card-columns">
+				<div class="card">
+					<img src="images/ice.png" alt="" class="card-img-top">
+					<div class="card-body">
+						<a href="https://www.slideshare.net/larsga/introduction-to-big-datamachine-learning"> Introduction to Big Data</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="images/presentation.png" alt="" class="card-img-top">
+					<div class="card-body">
+						<a href="https://drive.google.com/drive/folders/110IynZz01oCzobH2UH0qaKt1v6DBFBDu">Previous Presentations</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="images/wiki.png" alt="" class="card-img-top">
+					<div class="card-body">
+						<a href="https://github.com/gt-big-data/wiki/wiki">Our Wiki</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -162,7 +156,7 @@
 	<script>
 	$(function() {
 		$(".scroll").click(function() {
-			$('html,body').animate({scrollTop:$(this.hash).offset().top - 80}, 600);
+			$('html,body').animate({scrollTop:$(this.hash).offset().top - 70}, 600);
 			return false;
 		});
 	});
