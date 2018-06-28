@@ -86,3 +86,12 @@ a.navbar-brand:hover {
 	font-size: 1.7em;
 	color: white;
 }
+
+.mainlist {
+	list-style-type: none;
+}
+
+.mainlist li {
+	font-size: 2em;
+	font-style: italic;
+}
