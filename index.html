@@ -1,165 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.min.css">
-	<title>Big Data Big Impact</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="msapplication-TileColor" content="#FFF">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#FFF">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Big Data Big Impact</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/f4811a9764.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="78">
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-		<!-- Brand -->
-		<a class="navbar-brand scroll" href="#">Big Data Big Impact</a>
 
-		<!-- Toggler/collapsibe Button -->
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Big Data Big Impact</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#execboard">Executive Board</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Past Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <img src="assets/img/BDClogo.png" alt="Big Data logo" height="300px">
+                <h1 style="font-family:oswald; font-size: 180px;color: white; margin-bottom: 12%; margin-top: 8%;">Big
+                    Data</h1>
+                <h1 style="font-family:oswald; font-size: 100px; color: #ff914d; margin-bottom: 8%">Big Impact</h1>
+                <h2 class="text-white-50 mx-auto" style="font-size: 20px; margin-bottom: 5%">Developing intelligent and
+                    data-driven solutions to global challenges.</h2>
+                <a class="btn btn-primary js-scroll-trigger" href="#about">Learn More</a>
+            </div>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" style="min-height:100vh" >
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="mb-4" style="color: #022759; font-size: 75px;">About Us</h2>
+                    <hr style="border-top:1px solid #bbb; border-radius:5px;font-size: 50px;" />
+                    <p style="color: #022759; font-size: 25px;">
+                        We are a student organization of the College Of Computing at Georgia Tech. <br><br>
 
-		<!-- Navbar links -->
-		<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link scroll" href="#home">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link scroll" href="#about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link scroll" href="#projects">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link scroll" href="#resources">Resources</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+                        We are an educational, project-based organization focused on using data pipelining, analysis,
+                        and visualization techniques to make social impact.
+                        <br><br>**No skill is needed to join the Org, and there are no membership dues.**
 
-	<div class="jumbotron jumbotron-fluid page1" id="home">
-		<div class="container-fluid">
-			<br>
-			<br>
-			<img src="BDCLogo.svg" alt="Big Data logo" height="300px">
-			<h1>Big Data Big Impact</h1>
-			<h3> Meetings every <b>Monday</b> at <b>6:30 PM</b> in <b>CoC 101</b> </h3>
-			<a href="https://github.com/gt-big-data/"><i class="fa fa-github fa-3x"></i></a>
-			<a href="https://bigdataclub.slack.com/"><i class="fa fa-slack fa-3x"></i></a>
-			<a href="https://www.facebook.com/gtbigdatabigimpact/"><i class="fa fa-facebook fa-3x"></i></a>
-			<a href="mailto:contact@gtbigdata.club"><i class="fa fa-envelope fa-3x"></i></a>
-			<a href="https://twitter.com/gtbigdataclub"><i class="fa fa-twitter fa-3x"></i></a>
-		</div>
-	</div>
+                    </p>
+                    <div>
+                        <a href="https://www.instagram.com/gtbigdata/" style="margin:5%"><i
+                                class="fab fa-instagram fa-7x"></i></a>
 
-		<div class="jumbotron jumbotron-fluid page2" id="about">
-			<div class="container-fluid">
-				<h2>About</h2>
-				<p>We are a student organization of the College Of Computing at Georgia Tech.</p>
+                        <a href="https://github.com/gt-big-data/" style="margin:5%"><i
+                                class="fab fa-github fa-7x"></i></a>
+                        <a href="https://bigdataclub.slack.com/" style="margin:5%"><i
+                                class="fab fa-slack fa-7x"></i></a>
+                        <a href="https://www.facebook.com/gtbigdatabigimpact/" style="margin:5%"><i
+                                class="fab fa-facebook fa-7x"></i></a>
+                        <a href="mailto:contact@gtbigdata.club" style="margin:5%"><i
+                                class="fa fa-envelope fa-7x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" >
+        <div class="container">
+            <div class="py-5 text-center text-info background-info">
+                <div class="container" id="execboard">
+                    <div class="row">
+                        <div class="mx-auto col-md-12">
+                            <h1 class="mb-3" style="color: #022759; font-size: 50px;" contenteditable="true">Our
+                                Executive Board</h1>
+                            <hr style="border-top:1px solid #bbb; border-radius:5px;font-size: 50px;" />
 
-				<p>We are an educational project-based organization focused on using data pipelining, analysis, and visualization techniques to make social impact.
-				No skill is needed to join the Org, and there are no membership dues.</p>
-				<p> Make sure to check out our previous projects, sign up to our email list and see what we plan for the 2019-2020 academic year!</p>
-			</div>
-		</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 5%;"class="row align-items-center">
+                        <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                                alt="Card image cap" width="200"
+                                src="assets/headshots/VamsiDesu.jpg">
+                            <h2> <b>Vamsi Desu​</b> </h2>
+                            <p style="color: white; font-size: 15px;" class="mb-0">President & Anlysis Lead</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                                src="assets/headshots/TanishqSandhu.jpg"
+                                alt="Card image cap" width="200">
+                            <h2> <b>Tanishq Sandhu</b> </h2>
+                            <p style="color: white; font-size: 15px;" class="mb-0">Vice President</p>
+                        </div>
+                        <div class="col-lg-4 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                                src="assets/headshots/AbhiJoshi.png"
+                                width="200">
+                            <h2> <b>Abhi Joshi</b> </h2>
+                            <p style="color: white; font-size: 15px;" class="mb-0">Platform Lead</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                                alt="Card image cap" width="200"
+                                src="assets/headshots/TushnaEduljee.png">
+                            <h2> <b>Tushna Eduljee</b> </h2>
+                            <p style="color: white; font-size: 15px;" class="mb-0">Data Visualization Lead</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                                src="assets/headshots/PatrickLiu.png"
+                                alt="Card image cap" width="200">
+                            <h2> <b>Patrick Liu</b> </h2>
+                            <p style="color: white; font-size: 15px;" lass="mb-0">Project Lead</p>
+                        </div>
+                        <div class="col-lg-4 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                                src="assets/headshots/PranavKhorana.png"
+                                width="200">
+                            <h2> <b>Pranav Khorana</b> </h2>
+                            <p style="color: white; font-size: 15px;" class="mb-0">Project Lead</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 p-4"> <img class="d-block mb-3 mx-auto rounded-circle"
+                                src="assets/headshots/RahulRajan.jpg"
+                                alt="Card image cap" height="200" width="200">
+                            <h2> <b>Rahul Rajan</b> </h2>
+                            <p style="color: white; font-size: 15px;" class="mb-0">Project Lead</p>
+                        </div>
+                        <div class="col-lg-4 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                                src="assets/headshots/RahulChawla.jpg"
+                                width="200">
+                            <h2> <b>Rahul Chawla</b> </h2>
+                            <p style="color: white; font-size: 15px;" class="mb-0">Project Lead</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section" style="min-height:100vh" >
+        <div class="container" id="projects">
+            <h2 class="mb-4" style="color: white; font-size: 75px; text-align: center;">Past Projects</h2>
+            <hr style="border-top:1px solid #bbb; border-radius:5px;font-size: 50px;" />
+            <div class="col-md-10 col-center">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div style="margin-top: 10%;"class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div style="text-align: center;"class="thumb-wrapper thumb-content">
+                                        
+                                            <h1>Reddit Comment Communities</h1>
+                                            <img src="assets/img/redditProj.png" style="width: 150%; height:auto;margin-bottom: 10%;"/>
+                                            <p style="font-size: 15px;">Visualize how different comment threads on Reddit are growing in real
+                                                time with D3.js
+                                            </p>
+                                            <div  style="position: absolute; bottom: 2%; left: 14%;">
+                                                <a href="https://github.com/gt-big-data/comment-communities"  class="btn btn-primary">View Repository <i
+                                                    class="fab fa-github"></i></i></a>
+                                                </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <div style="text-align: center;"class="thumb-wrapper thumb-content">
+                                        <div>
+                                            <h1>Retina News</h1>
+                                            <img src="assets/img/news.png" style="width: 150%; height:auto;margin-bottom: 10%;margin-top: 10%;"/>
+                                            <p>Web application that organizes news articles to serve them intelligently
+                                                to the user. Aggregates headlines and articles from a variety of
+                                                sources, and personalizes delivery of these articles.
+                                            </p>
+                                            <div  style="position: absolute; bottom: 2%; left: 14%;">
+                                                <a href="https://github.com/gt-big-data/retina-ui"  class="btn btn-primary">View Repository <i
+                                                    class="fab fa-github"></i></i></a>
+                                                </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div style="text-align: center;"class="thumb-wrapper thumb-content">
+                                        <div>
+                                            <h1>Tweet Visualization</h1>
+                                            <img src="assets/img/superBowlProj.png" style="width: 150%; height:auto;margin-bottom: 10%;"/>
+                                            <p style="font-size: 15px;">See how the Twitter feed of thousands of users changed from moment to
+                                                moment during the 2014 Super Bowl.
+                                            </p>
+                                            <div  style="position: absolute; bottom: 10%; left: 22%;">
+                                                <a href="https://gtbigdata.club/SuperBowl2014/" style="background-color: #ff914d;" class="btn btn-primary">View Demo <i class="fas fa-laptop-code"></i></i></a>
+                                                </div>
+                                            <div  style="position: absolute; bottom: 2%; left: 12%;">
+                                                <a href="https://github.com/gt-big-data/SuperBowl2014"  class="btn btn-primary">View Repository <i
+                                                    class="fab fa-github"></i></i></a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div style="text-align: center;"class="thumb-wrapper thumb-content">
+                                        <div>
+                                            <h1>Movie Recommendation Website</h1>
+                                            <img src="assets/img/mobie.png" style="width: 150%; height:auto;margin-bottom: 10%;"/>
+                                            <p>Still looking for the right movie to watch next? This application will
+                                                compare your tastes with a database of hundreds of other users to
+                                                recommend you something new.
+                                            </p>
+                                            <div  style="position: absolute; bottom: 2%; left: 14%;">
+                                                <a href="https://github.com/gt-big-data/movie-lens"  class="btn btn-primary">View Repository <i
+                                                    class="fab fa-github"></i></i></a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div style="text-align: center;"class="thumb-wrapper thumb-content">
+                                        <div>
+                                            <h1>Twitter Insights</h1>
+                                            <img src="assets/img/twitter.png" style="width: 150%; height:auto;margin-bottom: 10%;margin-top: 10%;"/>
+                                            <p style="font-size: 15px;"> Long term project analyzing the differences in semantics of Tweets
+                                                between different regions.</p>
+                                                <div  style="position: absolute; bottom: 2%; left: 14%;">
+                                                    <a href="https://github.com/gt-big-data/ApiAndCrawler"  class="btn btn-primary">View Repository <i
+                                                        class="fab fa-github"></i></i></a>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div style="text-align: center;"class="thumb-wrapper thumb-content">
+                                        <div>
+                                            <h1>Realtime Twitter Dashboard</h1>
+                                            <img src="assets/img/twitterDash.png" style="width: 150%; height:auto;margin-bottom: 10%;"/>
+                                            <p style="font-size: 15px;">Visualizing Tweets across the world in real time using Tweepy, Rabbit MQ, Socket.io, and Python Flask.
+                                            </p>
+                                            <div  style="position: absolute; bottom: 2%; left: 14%;">
+                                                <a href="https://github.com/gt-big-data/twitter-dashboard"  class="btn btn-primary">View Repository <i
+                                                    class="fab fa-github"></i></i></a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-		<div class="jumbotron jumbotron-fluid page1" id="projects">
-			<div class="container-fluid">
-				<h2>Projects</h2>
-				<br>
-				<div class="card-columns">
-					<div class="card">
-						<img src="images/comment_communities.png" alt="Reddit Comment Communities" class="card-img-top">
-						<div class="card-body">
-							<h4 class="card-title"><a href="https://gt-big-data.github.io/comment-communities/">Reddit Comment Communities</a></h4>
-							Visualize how different comment threads on Reddit are growing in real time with D3.js
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title"><a href="https://github.com/gt-big-data/ApiAndCrawler">Twitter Insights</a></h4>
-							Our current project. Long term project analyzing the differences in semantics of Tweets between different regions.
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title"><a href="https://github.com/gt-big-data/movie-lens">Movie Recommendation Website</a></h4>
-							Still looking for the right movie to watch next? This application will compare your tastes with a database of hundreds of other users to recommend you something new.
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title"><a href="http://retinanews.net">Retina News</a></h4>
-							Web application that organizes news articles to serve them intelligently to the user. Aggregates headlines and articles from a variety of sources, and personalizes delivery of these articles.
-						</div>
-					</div>
-					<div class="card">
-						<img src="images/pikachu.png" alt="" class="card-img-top">
-						<div class="card-body">
-							<h4 class="card-title"><a href="https://gt-big-data.github.io/plottablejs-tutorial/">Visualizing Pokemon Stats</a></h4>
-							D3.js visualization of all first generation Pokemon, grouping, graphing and comparing them by their base stats.
-						</div>
-					</div>
-					<div class="card">
-						<img src="images/super_bowl.png" alt="" class="card-img-top">
-						<div class="card-body">
-							<h4 class="card-title"><a href="https://gt-big-data.github.io/SuperBowl2014/">Tweet Visualization </a></h4>
-							See how the Twitter feed of thousands of users changed from moment to moment during the 2014 Super Bowl.
-						</div>
-					</div>
-					<div class="card">
-						<img src="images/map.png" alt="" class="card-img-top">
-						<div class="card-body">
-							<h4 class="card-title"><a href="https://github.com/gt-big-data/twitter-dashboard">Realtime Twitter Dashboard</a></h4>
-							Visualizing Tweets across the world in real time.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	<div class="jumbotron jumbotron-fluid page2" id="resources">
-		<div class="container-fluid">
-			<h2>Getting Started</h2>
-			<div class="card-columns">
-				<div class="card">
-					<img src="images/ice.png" alt="" class="card-img-top">
-					<div class="card-body">
-						<a href="https://www.slideshare.net/larsga/introduction-to-big-datamachine-learning"> Introduction to Big Data</a>
-					</div>
-				</div>
-				<div class="card">
-					<img src="images/presentation.png" alt="" class="card-img-top">
-					<div class="card-body">
-						<a href="https://drive.google.com/drive/folders/110IynZz01oCzobH2UH0qaKt1v6DBFBDu">Previous Presentations</a>
-					</div>
-				</div>
-				<div class="card">
-					<img src="images/wiki.png" alt="" class="card-img-top">
-					<div class="card-body">
-						<a href="https://github.com/gt-big-data/wiki/wiki">Our Wiki</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
-	<script>
-	$(function() {
-		$(".scroll").click(function() {
-			$('html,body').animate({scrollTop:$(this.hash).offset().top - 70}, 600);
-			return false;
-		});
-	});
-</script>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container">Big Data Big Impact @ GT</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
