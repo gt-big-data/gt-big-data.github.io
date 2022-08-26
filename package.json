@@ -1,6 +1,7 @@
 {
   "name": "landingpage-react-template",
   "private": true,
+  "homepage": "https://gt-big-data.github.io/,
   "dependencies": {
     "@adobe/react-spectrum": "^3.16.3",
     "@fortawesome/fontawesome-free": "^6.0.0",
