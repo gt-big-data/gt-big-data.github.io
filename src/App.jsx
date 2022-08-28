@@ -8,7 +8,7 @@ import { ProjectPage } from "./components/ProjectPage";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -38,7 +38,7 @@ const App = () => {
           <AlumniPage/>
         </Route>
         <Route exact path = "/sponsors">
-          <SponsorsPage/>  
+          <SponsorsPage/>
         </Route>
         <Route exact path ="/contact">
           <ContactPage/>
