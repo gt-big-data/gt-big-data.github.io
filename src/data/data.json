@@ -31,7 +31,7 @@
       "professionalCard": {
         "text": "Grow with mentorship opportunities",
         "img": "img/aboutIcons/techtalk.png"
-      }, 
+      },
       "networkCard": {
         "text": "Network at social events and more!",
         "img": "img/aboutIcons/network.png"
@@ -51,7 +51,7 @@
         "desc": "If you love compelling data visualizations, this role is for you! You will develop compelling visualizations and the front-end that bring the project to life."
       }
     }
-    
+
 
   },
   "Gallery": [
@@ -191,7 +191,7 @@
       "img": "img/team/TanishqSandhu.jfif",
       "name": "Tanishq Sandhu",
       "major": "CS",
-      "title": "Executive Vice President",
+      "title": "President",
       "linkedin": "https://www.linkedin.com/in/tanishqsandhu/",
       "instagram": "https://www.instagram.com/tanishq.sandhu/",
       "twitter": "https://twitter.com/TanishqSandhu",
@@ -200,10 +200,10 @@
     },
     {
       "img": "img/team/VamsiDesu.jfif",
-      "name": "Vamsi Desu",
-      "linkedin": "https://www.linkedin.com/in/vamsidesu/",
+      "name": "Ronit Arora",
+      "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
 
-      "title": "President"
+      "title": "Vice President"
 
     },
     {
@@ -217,11 +217,11 @@
       "year": "Second"
     },
     {
-      "img": "img/team/KhelanModi.png",
-      "name": "Khelan Modi",
+      "img": "img/team/Eshani.jpeg",
+      "name": "Eshani Chauk",
       "major": "CS",
       "title": "SVP of Projects",
-      "linkedin": "https://www.linkedin.com/in/khelan-modi/",
+      "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
       "instagram": "",
       "twitter": "",
       "year": "Third"
@@ -236,7 +236,7 @@
       "twitter": "",
       "year": "First"
     },
-    
+
     {
       "img": "img/team/AlexHobby.jpg",
       "name": "Alex Hobby",
@@ -279,7 +279,7 @@
         "instagram": "https://www.instagram.com/tanishq.sandhu/",
         "twitter": "https://twitter.com/TanishqSandhu",
         "year": "Second"
-  
+
       },
       {
         "img": "img/team/VamsiDesu.jfif",
@@ -321,7 +321,7 @@
         "twitter": "",
         "year": "First"
       },
-      
+
       {
         "img": "img/team/AlexHobby.jpg",
         "name": "Alex Hobby",
@@ -415,7 +415,7 @@
           "description": "include social impact and what the project does",
           "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
         },
-        
+
         {
           "img": "",
           "name": "Project 2",
