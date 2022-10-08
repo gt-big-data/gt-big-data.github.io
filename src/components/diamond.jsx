@@ -12,7 +12,7 @@ export const DiamondSponsors = (props) => {
             </svg>
         </div>
         <div className="container">
-          <h1 style={{textAlign: 'center', margin: '2em 1em 2em 1em', color: '#ffffff'}}>Diamond</h1>
+          <h1 style={{textAlign: 'center', margin: '2em 1em 2em 1em', color: '#ffffff'}}>Current Sponsors</h1>
             <div className="row">
                 <div className="sponsorBox">
                     <div className="sponsors">

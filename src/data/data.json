@@ -190,106 +190,179 @@
     {
       "img": "img/team/TanishqSandhu.jfif",
       "name": "Tanishq Sandhu",
+      "major": "CS",
       "title": "President",
       "linkedin": "https://www.linkedin.com/in/tanishqsandhu/",
-      "instagram": "https://www.instagram.com/tanishq.sandhu/",
-      "twitter": "https://twitter.com/TanishqSandhu"
-
+      "instagram": "https://www.instagram.com/tanishq.sandhu/"
     },
     {
-      "img": "img/team/Ronit.jpg",
+      "img": "img/team/RonitArora.jpg",
       "name": "Ronit Arora",
+      "major": "CS",
       "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
       "instagram": "https://www.instagram.com/ronit.r.arora/",
       "title": "Vice President"
-
-    },
-    {
-      "img": "img/team/Eshani.jpeg",
-      "name": "Eshani Chauk",
-      "title": "SVP of Projects & Project Lead",
-      "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
-      "instagram": "",
-      "twitter": ""
     },
     {
       "img": "img/team/JillPatel.png",
       "name": "Jill Patel",
+      "major": "CS",
       "title": "SVP of Learning and Development",
       "linkedin": "https://www.linkedin.com/in/jill-patel-/",
-      "instagram": "",
-      "twitter": ""
+      "instagram": "https://www.instagram.com/jillpatel1/"
     },
     {
-      "img": "img/team/abhinav.png",
-      "name": "Abhinav Sattiraju",
-      "title": "SVP of Web Development",
-      "linkedin": "https://www.linkedin.com/in/abhinavsattiraju/"
-    },
-    {
-      "img": "img/team/scott.jpg",
+      "img": "img/team/ScottWatanuki.jpg",
       "name": "Scott Watanuki",
+      "major": "CS",
       "title": "SVP of Technology",
-      "linkedin": "https://www.linkedin.com/in/scottwatanuki/"
+      "linkedin": "https://www.linkedin.com/in/scottwatanuki/",
+      "instagram": "https://www.instagram.com/scott.watanuki/"
     },
     {
-      "img": "img/team/Daksh Sehgal.jpg",
-      "name": "Daksh Sehgal",
-      "title": "SVP of Sponsorship",
-      "linkedin": "https://www.linkedin.com/in/scottwatanuki/"
+      "img": "img/team/EshaniChauk.jpeg",
+      "name": "Eshani Chauk",
+      "major": "CS",
+      "title": "SVP of Projects",
+      "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
+      "instagram": "https://www.instagram.com/eshanichauk/"
+    },
+    
+    {
+      "img": "img/team/AbhinavSattiraju.png",
+      "name": "Abhinav Sattiraju",
+      "major": "CS",
+      "title": "SVP of Web Development",
+      "linkedin": "https://www.linkedin.com/in/abhinavsattiraju/",
+      "instagram": "https://www.instagram.com/abhinavss00/"
     },
     {
-      "img": "img/team/Daksh Sehgal.jpg",
-      "name": "Aayush Mathur",
-      "title": "Sponsorship Chair",
-      "linkedin": "https://www.linkedin.com/in/aayush-mathur-b886261b0/"
-    },
-    {
-      "img": "img/team/Daksh Sehgal.jpg",
+      "img": "img/team/HarshikaGelivi.jpeg",
       "name": "Harshika Gelivi",
+      "major": "CS",
       "title": "SVP of Marketing",
-      "linkedin": "https://www.linkedin.com/in/harshika-gelivi/"
+      "linkedin": "https://www.linkedin.com/in/harshika-gelivi/",
+      "instagram": "https://www.instagram.com/harshika.g15/"
     },
     {
-      "img": "img/team/RonitArora.jpg",
-      "name": "Chinar Dankhara",
-      "title": "Project Lead",
-      "linkedin": "https://www.linkedin.com/in/chinardankhara/",
-      "twitter": ""
+      "img": "img/team/DakshSehgal.jpg",
+      "name": "Daksh Sehgal",
+      "major": "CS",
+      "title": "SVP of Sponsorship",
+      "linkedin": "https://www.linkedin.com/in/daksh-sehgal/",
+      "instagram": "https://www.instagram.com/send_haikus/"
     },
     {
-      "img": "img/team/ShriyanshuKode.jfif",
-      "name": "Shriyanshu Kode",
-      "title": "Project Lead",
-      "linkedin": "www.linkedin.com/in/shriyanshuk"
+      "img": "img/team/EthanMendes.jpg",
+      "name": "Ethan Mendes",
+      "major": "CS",
+      "title": "Platform Lead",
+      "linkedin": "https://www.linkedin.com/in/ethan-mendes-869b511a8/",
+      "instagram": ""
     },
     {
-      "img": "img/team/RonitArora.jpg",
-      "name": "Nawid Tahmid",
-      "title": "Project Lead",
-      "linkedin": "https://www.linkedin.com/in/akhter-tahmid/",
-      "twitter": ""
+      "img": "img/team/UdayGoyat.jpeg",
+      "name": "Uday Goyat",
+      "major": "CS",
+      "title": "Data Vis Lead",
+      "linkedin": "https://www.linkedin.com/in/uday-goyat-6088a2177/",
+      "instagram": "https://www.instagram.com/udaygoyat/"
     },
     {
-      "img": "img/team/sacchit.jpg",
-      "name": "Sacchit Mittal",
-      "title": "Project Lead",
-      "linkedin": "https://www.linkedin.com/in/sacchitmittal/",
-      "twitter": ""
-    },
-    {
-      "img": "img/team/EshaniChauk2.jpg",
+      "img": "img/team/AkashVemulapalli.png",
       "name": "Akash Vemulapalli",
+      "major": "CS",
       "title": "Analysis Lead",
       "linkedin": "https://www.linkedin.com/in/akash-vemulapalli-109a5813a/",
-      "instagram": "",
-      "twitter": ""
+      "instagram": "https://www.instagram.com/akashv20/"
     },
     {
-      "img": "img/team/ethan.jpg",
-      "name": "Ethan Mendes",
-      "title": "Platform Lead",
-      "linkedin": "https://www.linkedin.com/in/ethan-mendes-869b511a8/"
+      "img": "img/team/DanielDuan.jpg",
+      "name": "Daniel Duan",
+      "major": "CS",
+      "title": "Web Development Chair",
+      "linkedin": "https://www.linkedin.com/in/dlduan/",
+      "instagram": "https://www.instagram.com/dan.duan/"
+    },
+    {
+      "img": "img/team/AayushMathur.jpg",
+      "name": "Aayush Mathur",
+      "major": "CS",
+      "title": "Sponsorship Chair",
+      "linkedin": "https://www.linkedin.com/in/aayush-mathur-b886261b0/",
+      "instagram": "https://www.instagram.com/aayush.mathur/"
+    },
+    {
+      "img": "img/team/EllaLloyd.jpg",
+      "name": "Ella Lloyd",
+      "major": "CS",
+      "title": "Social Media Chair",
+      "linkedin": "https://www.linkedin.com/in/ella-lloyd/",
+      "instagram": "https://www.instagram.com/la.lloyd/"
+    },
+    {
+      "img": "img/team/RamaKhabbaz.jpeg",
+      "name": "Rama Khabbaz",
+      "major": "CS",
+      "title": "Events Chair",
+      "linkedin": "https://www.linkedin.com/in/rama-khabbaz-88504a20b/",
+      "instagram": "https://www.instagram.com/ramakhabbaz/"
+    },
+    {
+      "img": "img/team/PranavRaj.jpeg",
+      "name": "Pranav Raj",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/pranav-raj1/",
+      "instagram": "https://www.instagram.com/p.raj1234/"
+    },
+    {
+      "img": "img/team/ShriyanshuKode.jpeg",
+      "name": "Shriyanshu Kode",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/shriyanshuk/",
+      "instagram": "https://www.instagram.com/shriyanshu_kode/"
+    },
+    {
+      "img": "img/team/SacchitMittal.jpg",
+      "name": "Sacchit Mittal",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/sacchitmittal/",
+      "instagram": "https://www.instagram.com/sacchit.mittal/"
+    },
+    {
+      "img": "img/team/ChinarDankhara.png",
+      "name": "Chinar Dankhara",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/chinardankhara/",
+      "instagram": "https://www.instagram.com/highchinar/"
+    },
+    {
+      "img": "img/team/NawidTahmid.jpg",
+      "name": "Nawid Tahmid",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/akhter-tahmid/",
+      "instagram": "https://www.instagram.com/nawid.tahmid/"
+    },
+    {
+      "img": "img/team/AdhiraChoudhury.jpg",
+      "name": "Adhira Choudhury",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/adhira-choudhury/",
+      "instagram": "https://www.instagram.com/adhira.ch/"
+    },
+    {
+      "img": "img/team/KhushiGupta.jpg",
+      "name": "Khushi Gupta",
+      "major": "CS",
+      "title": "Project Lead",
+      "linkedin": "https://www.linkedin.com/in/khushi-gupta-234418205/",
+      "instagram": "https://www.instagram.com/khushiguptaa13/"
     }
   ],
   "Alumni": [
