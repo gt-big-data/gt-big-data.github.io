@@ -16,25 +16,29 @@ export const CarouselTest = () => {
     adaptiveHeight: true,
   };
   return (
-    <Slider {...settings}>
-      <Slide >
-        <StyledImage src="img/carousel/carousel1.jpg" />
-      </Slide>
-      <Slide >
-      <StyledImage src="img/carousel/carousel2.jpg" />
-      </Slide>
-      <Slide >
-      <StyledImage src="img/carousel/carousel3.jpg" />
-      </Slide>
-      <Slide >
-      <StyledImage src="img/carousel/carousel4.jpg" />
-      </Slide>
-      <Slide >
-      <StyledImage src="img/carousel/carousel5.jpg" />
-      </Slide>
-      <Slide >
-      <StyledImage src="img/carousel/carousel6.jpg" />
-      </Slide>
-    </Slider>
+    <div>
+      <div className="gradient">
+        <Slider {...settings}>
+          <Slide>
+            <StyledImage src="img/carousel/carousel1.jpg" />
+          </Slide>
+          <Slide>
+            <StyledImage src="img/carousel/carousel2.jpg" />
+          </Slide>
+          <Slide>
+            <StyledImage src="img/carousel/carousel3.jpg" />
+          </Slide>
+          <Slide>
+            <StyledImage src="img/carousel/carousel4.jpg" />
+          </Slide>
+          <Slide>
+            <StyledImage src="img/carousel/carousel5.jpg" />
+          </Slide>
+          <Slide>
+            <StyledImage src="img/carousel/carousel6.jpg" />
+          </Slide>
+        </Slider>
+      </div>
+    </div>
   );
-}
+};
