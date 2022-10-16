@@ -19,8 +19,7 @@ export const Landing = () => {
     useEffect(() => {
         setLandingPageData(JsonData);
     }, []);
-    let testimonial1 = JsonData.Board[0]
-    // console.log("test:", testimonial1.name ,testimonial1.text)
+
     return (
         <div>
             <Navigation />
@@ -32,12 +31,12 @@ export const Landing = () => {
                 <span>TESTIMONIALS</span>
             </h2>
             <div className="container">
-                <div className="row">
-                    <TestimonialCard>"{JsonData.Board[0].text}"</TestimonialCard>
-                    <TestimonialCard>"{JsonData.Board[1].text}"</TestimonialCard>
-                    <TestimonialCard>"{JsonData.Board[2].text}"</TestimonialCard>
-                </div>
-                <Testimonials data= {JsonData.Board}></Testimonials>
+                {/* <div className="row">
+                    <TestimonialCard>"{JsonData.Testimonials[0].text}"</TestimonialCard>
+                    <TestimonialCard>"{JsonData.Testimonials[1].text}"</TestimonialCard>
+                    <TestimonialCard>"{JsonData.Testimonials[2].text}"</TestimonialCard>
+                </div> */}
+                <Testimonials data= {JsonData.Testimonials}></Testimonials>
                 <h1 style={{'textAlign':'center'}}>COMING SOON</h1>
             </div>
             <Footer data={JsonData.Contact} />

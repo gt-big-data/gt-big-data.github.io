@@ -1,58 +1,57 @@
 {
-    "Header": {
-        "title": "Big Data Big Impact",
-        "paragraph": "Developing intelligent and data-driven solutions to global challenges."
-    },
-    "About": {
-        "keywords": "Impact, Excellence, and Growth",
-        "paragraph1": "We are a Georgia Institute of Technology College of Computing (CoC) organization focused on leveraging big data to provide insight into some of the world's greatest social challenges, from poverty to climate action.",
-        "paragraph2": "We pride ourselves on offering students valuable hands-on opportunities to pursue excellence and growth in computer science and career development.",
-        "Why": [
-            "Social Impact",
-            "Project-based Learning",
-            "Educational Workshops",
-            "Collaborate with like-minded students"
-        ],
-        "Why2": [
-            "Leadership opportunities",
-            "Startup-like operations",
-            "Networking Events",
-            "Tech Talks and More!"
-        ],
-        "whyBDBI": {
-            "impactCard": {
-                "text": "Contribute to social impact",
-                "img": "img/aboutIcons/solidarity.png"
-            },
-            "skillCard": {
-                "text": "Improve software development skills",
-                "img": "img/aboutIcons/skills.png"
-            },
-            "professionalCard": {
-                "text": "Grow with mentorship opportunities",
-                "img": "img/aboutIcons/techtalk.png"
-            },
-            "networkCard": {
-                "text": "Network at social events and more!",
-                "img": "img/aboutIcons/network.png"
-            }
-        },
-        "projRoles": {
-            "analysisRole": {
-                "title": "Analysis",
-                "desc": "If you like Data Science and ML, this role is for you! You will analyze rich data and develop models that translates to social impact."
-            },
-            "platformRole": {
-                "title": "Platform",
-                "desc": "If you are interested in API development, this role is for you! You will design the backend that helps power the projects' web app."
-            },
-            "datavizRole": {
-                "title": "DataViz",
-                "desc": "If you love compelling data visualizations, this role is for you! You will develop compelling visualizations and the front-end that bring the project to life."
-            }
-        }
-    },
-    "Gallery": [
+  "Header": {
+      "title": "Big Data Big Impact",
+      "paragraph": "Developing intelligent and data-driven solutions to global challenges."
+  },
+  "About": {
+      "keywords": "Impact, Excellence, and Growth",
+      "paragraph1": "We are a Georgia Institute of Technology College of Computing (CoC) organization focused on leveraging big data to provide insight into some of the world's greatest social challenges, from poverty to climate action.",
+      "paragraph2": "We pride ourselves on offering students valuable hands-on opportunities to pursue excellence and growth in computer science and career development.",
+      "Why": [
+          "Social Impact",
+          "Project-based Learning",
+          "Educational Workshops",
+          "Collaborate with like-minded students"
+      ],
+      "Why2": [
+          "Leadership opportunities",
+          "Startup-like operations",
+          "Networking Events",
+          "Tech Talks and More!"
+      ],
+      "whyBDBI": {
+          "impactCard": {
+              "text": "Contribute to social impact",
+              "img": "img/aboutIcons/solidarity.png"
+          },
+          "skillCard": {
+              "text": "Improve software development skills",
+              "img": "img/aboutIcons/skills.png"
+          },
+          "professionalCard": {
+              "text": "Grow with mentorship opportunities",
+              "img": "img/aboutIcons/techtalk.png"
+          },
+          "networkCard": {
+              "text": "Network at social events and more!",
+              "img": "img/aboutIcons/network.png"
+          }
+      },
+      "projRoles": {
+          "analysisRole": {
+              "title": "Analysis",
+              "desc": "If you like Data Science and ML, this role is for you! You will analyze rich data and develop models that translates to social impact."
+          },
+          "platformRole": {
+              "title": "Platform",
+              "desc": "If you are interested in API development, this role is for you! You will design the backend that helps power the projects' web app."
+          },
+          "datavizRole": {
+              "title": "DataViz",
+              "desc": "If you love compelling data visualizations, this role is for you! You will develop compelling visualizations and the front-end that bring the project to life."
+          }
+      },
+      "Gallery": [
         {
             "title": "Marketing",
             "desc": "The marketing team exercises its creativity to effectively advertise club events, such as socials, game nights, and more! ",
@@ -77,155 +76,78 @@
             "img": "img/commIcons/commicon.png",
             "skills": "Leadership, Communication"
         }
-    ],
-    "Events": [
+      ],
+      "Events": [
         "Project Demos",
         "Resume reviews",
         "Tech Talks",
         "Social events",
         "Game nights",
         "And more!"
-    ],
-    "Corporate Sponsors": [
+      ],
+      "Companies": [
+        "img/company_icons/apple.png",
+        "img/company_icons/amazon.png",
+        "img/company_icons/meta.png",
+        "img/company_icons/google.png",
+        "img/company_icons/msft.png"
+      ],
+      "Speakers": [
         {
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+          "img": "img/speakers/jan.jpeg",
+          "title": "Director of Data Science at Honeywell Connected Enterprise",
+          "name": "Jan Zirnstein",
+          "linkedin": "https://www.linkedin.com/in/janzirnstein/"
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+          "img": "img/speakers/vijay.jpg",
+          "title": "Lead Data Scientist at Honeywell",
+          "name": "Vijay Kumar Ravi",
+          "linkedin": "https://www.linkedin.com/in/vijaykumarravi/"
         },
-    "whyBDBI": {
-      "impactCard": {
-        "text": "Contribute to social impact",
-        "img": "img/aboutIcons/solidarity.png"
-      },
-      "skillCard": {
-        "text": "Improve software development skills",
-        "img": "img/aboutIcons/skills.png"
-      },
-      "professionalCard": {
-        "text": "Grow with mentorship opportunities",
-        "img": "img/aboutIcons/techtalk.png"
-      },
-      "networkCard": {
-        "text": "Network at social events and more!",
-        "img": "img/aboutIcons/network.png"
-      }
-    },
-    "projRoles": {
-      "analysisRole": {
-        "title": "Analysis",
-        "desc": "If you like Data Science and ML, this role is for you! You will analyze rich data and develop models that translates to social impact."
-      },
-      "platformRole": {
-        "title": "Platform",
-        "desc": "If you are interested in API development, this role is for you! You will design the backend that helps power the projects' web app."
-      },
-      "datavizRole": {
-        "title": "DataViz",
-        "desc": "If you love compelling data visualizations, this role is for you! You will develop compelling visualizations and the front-end that bring the project to life."
-      }
-    }
-
-
+        {
+          "img": "img/speakers/becca.jpg",
+          "title": "Analytics Engagement Manager at Honeywell",
+          "name": "Becca Smith",
+          "linkedin": "https://www.linkedin.com/in/becca-smith-40ab6329/"
+        },
+        {
+          "img": "img/speakers/alpesh.png",
+          "title": "Director of Architecture at Honeywell",
+          "name": "Alpesh Desai",
+          "linkedin": "https://www.linkedin.com/in/alpeshdesai/"
+        },
+        {
+          "img": "img/speakers/tim.jpeg",
+          "title": "President of Peredom",
+          "name": "Timothy Hanline",
+          "linkedin": "https://www.linkedin.com/in/timothy-hanline/"
+        }
+      ]
   },
-  "Gallery": [
-    {
-      "title": "Marketing",
-      "desc": "The marketing team exercises its creativity to effectively advertise club events, such as socials, game nights, and more! ",
-      "img": "img/commIcons/commicon.png",
-      "skills": "Graphic design, Event planning, Content creation, Analytics"
-    },
-    {
-      "title": "Web Development",
-      "desc": "The web development team maintains BDBI's online presence, including designing this website!",
-      "img": "img/commIcons/commicon.png",
-      "skills": "Front-end and backend development, Problem-solving"
-    },
-    {
-      "title": "Sponsorship",
-      "desc": "The sponsorship team connects BDBI with local nonprofits and Atlanta-based companies to partner with for data science projects!",
-      "img": "img/commIcons/commicon.png",
-      "skills": "Communication, Planning"
-    },
-    {
-      "title": "Internal Ops",
-      "desc": "The internal operations team manages club operations and resources, ensuring the best experience for all!",
-      "img": "img/commIcons/commicon.png",
-      "skills": "Leadership, Communication"
-    }
-  ],
-  "Events": [
-    "Project Demos",
-    "Resume reviews",
-    "Tech Talks",
-    "Social events",
-    "Game nights",
-    "And more!"
-  ],
-  "Corporate Sponsors": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Sponsors": [
-    "img/company_icons/google.png",
-    "img/company_icons/resizedhoneywell.png"
-  ],
-  "Sponsors2": [
-  ],
-  "Sponsors3": [
-    "img/company_icons/meta.png",
-    "img/company_icons/msft.png",
-    "img/company_icons/airbnb.png",
-    "img/company_icons/ea.png",
-    "img/company_icons/ncr.png",
-    "img/company_icons/hubspot.png",
-    "img/company_icons/lyft.png",
-    "img/company_icons/nvidia.png"
-  ],
-  "Companies": [
-    "img/company_icons/apple.png",
-    "img/company_icons/amazon.png",
-    "img/company_icons/meta.png",
-    "img/company_icons/google.png",
-    "img/company_icons/msft.png"
-  ],
-  "Board": [
+  "Sponsors": {
+    "Diamond": [
+      "img/company_icons/google.png",
+      "img/company_icons/resizedhoneywell.png"
+    ],
+    "Platinum": [
+    ],
+    "Past": [
+      "img/company_icons/meta.png",
+      "img/company_icons/msft.png",
+      "img/company_icons/airbnb.png",
+      "img/company_icons/ea.png",
+      "img/company_icons/ncr.png",
+      "img/company_icons/hubspot.png",
+      "img/company_icons/lyft.png",
+      "img/company_icons/nvidia.png"
+    ]
+  },
+  "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
       "text": "\"My experience with Big Data Big Impact has been intellectually provoking and a ton of fun. I learned something new every day, and I'm being pushed to grow by doing things outside of my comfort zone. I've really loved working with the people here—everyone is incredibly kind and knowledgeable.\"",
-      "name": "Khelan Modi(Former Vice President)"
+      "name": "Khelan Modi"
     },
     {
       "img": "img/testimonials/02.jpg",
@@ -254,9 +176,6 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
     "facebook": "https://www.facebook.com/gtbigdatabigimpact/",
     "twitter": "https://twitter.com/gtbigdataclub",
     "github": "https://github.com/gt-big-data",
@@ -489,8 +408,6 @@
         "name": "Khelan Modi",
         "linkedin": "https://www.linkedin.com/in/khelan-modi/"
       }
-
-
   ],
   "Features": [
     {
@@ -547,417 +464,49 @@
     }
 
   ],
-    "Projects": {
-      "2021-2022": [
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        }
+  "Projects": {
+    "2021-2022": [
+      {
+        "img": "",
+        "name": "Project 1",
+        "description": "include social impact and what the project does",
+        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+      },
+      {
+        "img": "",
+        "name": "Project 2",
+        "description": "include social impact and what the project does",
+        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+      }
     ],
-    "Sponsors": [
-        "img/company_icons/google.png",
-        "img/company_icons/resizedhoneywell.png"
+    "2020-2021": [
+      {
+        "img": "",
+        "name": "Project 1",
+        "description": "include social impact and what the project does",
+        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+      },
+      {
+        "img": "",
+        "name": "Project 2",
+        "description": "include social impact and what the project does",
+        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+      }
     ],
-    "Sponsors2": [],
-    "Sponsors3": [
-        "img/company_icons/meta.png",
-        "img/company_icons/msft.png",
-        "img/company_icons/airbnb.png",
-        "img/company_icons/ea.png",
-        "img/company_icons/ncr.png",
-        "img/company_icons/hubspot.png",
-        "img/company_icons/lyft.png",
-        "img/company_icons/nvidia.png"
-    ],
-    "Companies": [
-        "img/company_icons/apple.png",
-        "img/company_icons/amazon.png",
-        "img/company_icons/meta.png",
-        "img/company_icons/google.png",
-        "img/company_icons/msft.png"
-    ],
-    "Board": [
-        {
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
-    ],
-    "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "https://www.facebook.com/gtbigdatabigimpact/",
-        "twitter": "https://twitter.com/gtbigdataclub",
-        "github": "https://github.com/gt-big-data",
-        "slack": "https://bigdataclub.slack.com/",
-        "instagram": "https://www.instagram.com/gtbigdata/?hl=en",
-        "linkedin": "https://www.linkedin.com/company/gtbigdatabigimpact"
-    },
-    "Team": [
-        {
-            "img": "img/team/TanishqSandhu.jfif",
-            "name": "Tanishq Sandhu",
-            "major": "CS",
-            "title": "President",
-            "linkedin": "https://www.linkedin.com/in/tanishqsandhu/",
-            "instagram": "https://www.instagram.com/tanishq.sandhu/"
-        },
-        {
-            "img": "img/team/RonitArora.jpg",
-            "name": "Ronit Arora",
-            "major": "CS",
-            "linkedin": "https://www.linkedin.com/in/ronit-r-arora/",
-            "instagram": "https://www.instagram.com/ronit.r.arora/",
-            "title": "Vice President"
-        },
-        {
-            "img": "img/team/JillPatel.png",
-            "name": "Jill Patel",
-            "major": "CS",
-            "title": "SVP of Learning and Development",
-            "linkedin": "https://www.linkedin.com/in/jill-patel-/",
-            "instagram": "https://www.instagram.com/jillpatel1/"
-        },
-        {
-            "img": "img/team/ScottWatanuki.jpg",
-            "name": "Scott Watanuki",
-            "major": "CS",
-            "title": "SVP of Technology",
-            "linkedin": "https://www.linkedin.com/in/scottwatanuki/",
-            "instagram": "https://www.instagram.com/scott.watanuki/"
-        },
-        {
-            "img": "img/team/EshaniChauk.jpeg",
-            "name": "Eshani Chauk",
-            "major": "CS",
-            "title": "SVP of Projects",
-            "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
-            "instagram": "https://www.instagram.com/eshanichauk/"
-        },
+    "2019-2020": [
+      {
+        "img": "",
+        "name": "Project 1",
+        "description": "include social impact and what the project does",
+        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+      },
 
-        {
-            "img": "img/team/AbhinavSattiraju.png",
-            "name": "Abhinav Sattiraju",
-            "major": "CS",
-            "title": "SVP of Web Development",
-            "linkedin": "https://www.linkedin.com/in/abhinavsattiraju/",
-            "instagram": "https://www.instagram.com/abhinavss00/"
-        },
-        {
-            "img": "img/team/HarshikaGelivi.jpeg",
-            "name": "Harshika Gelivi",
-            "major": "CS",
-            "title": "SVP of Marketing",
-            "linkedin": "https://www.linkedin.com/in/harshika-gelivi/",
-            "instagram": "https://www.instagram.com/harshika.g15/"
-        },
-        {
-            "img": "img/team/DakshSehgal.jpg",
-            "name": "Daksh Sehgal",
-            "major": "CS",
-            "title": "SVP of Sponsorship",
-            "linkedin": "https://www.linkedin.com/in/daksh-sehgal/",
-            "instagram": "https://www.instagram.com/send_haikus/"
-        },
-        {
-            "img": "img/team/EthanMendes.jpg",
-            "name": "Ethan Mendes",
-            "major": "CS",
-            "title": "Platform Lead",
-            "linkedin": "https://www.linkedin.com/in/ethan-mendes-869b511a8/",
-            "instagram": ""
-        },
-        {
-            "img": "img/team/UdayGoyat.jpeg",
-            "name": "Uday Goyat",
-            "major": "CS",
-            "title": "Data Vis Lead",
-            "linkedin": "https://www.linkedin.com/in/uday-goyat-6088a2177/",
-            "instagram": "https://www.instagram.com/udaygoyat/"
-        },
-        {
-            "img": "img/team/AkashVemulapalli.png",
-            "name": "Akash Vemulapalli",
-            "major": "CS",
-            "title": "Analysis Lead",
-            "linkedin": "https://www.linkedin.com/in/akash-vemulapalli-109a5813a/",
-            "instagram": "https://www.instagram.com/akashv20/"
-        },
-        {
-            "img": "img/team/DanielDuan.jpg",
-            "name": "Daniel Duan",
-            "major": "CS",
-            "title": "Web Development Chair",
-            "linkedin": "https://www.linkedin.com/in/dlduan/",
-            "instagram": "https://www.instagram.com/dan.duan/"
-        },
-        {
-            "img": "img/team/AayushMathur.jpg",
-            "name": "Aayush Mathur",
-            "major": "CS",
-            "title": "Sponsorship Chair",
-            "linkedin": "https://www.linkedin.com/in/aayush-mathur-b886261b0/",
-            "instagram": "https://www.instagram.com/aayush.mathur/"
-        },
-        {
-            "img": "img/team/EllaLloyd.jpg",
-            "name": "Ella Lloyd",
-            "major": "CS",
-            "title": "Social Media Chair",
-            "linkedin": "https://www.linkedin.com/in/ella-lloyd/",
-            "instagram": "https://www.instagram.com/la.lloyd/"
-        },
-        {
-            "img": "img/team/RamaKhabbaz.jpeg",
-            "name": "Rama Khabbaz",
-            "major": "CS",
-            "title": "Events Chair",
-            "linkedin": "https://www.linkedin.com/in/rama-khabbaz-88504a20b/",
-            "instagram": "https://www.instagram.com/ramakhabbaz/"
-        },
-        {
-            "img": "img/team/PranavRaj.jpeg",
-            "name": "Pranav Raj",
-            "major": "CS",
-            "title": "Project Lead",
-            "linkedin": "https://www.linkedin.com/in/pranav-raj1/",
-            "instagram": "https://www.instagram.com/p.raj1234/"
-        },
-        {
-            "img": "img/team/ShriyanshuKode.jpeg",
-            "name": "Shriyanshu Kode",
-            "major": "CS",
-            "title": "Project Lead",
-            "linkedin": "https://www.linkedin.com/in/shriyanshuk/",
-            "instagram": "https://www.instagram.com/shriyanshu_kode/"
-        },
-        {
-            "img": "img/team/SacchitMittal.jpg",
-            "name": "Sacchit Mittal",
-            "major": "CS",
-            "title": "Project Lead",
-            "linkedin": "https://www.linkedin.com/in/sacchitmittal/",
-            "instagram": "https://www.instagram.com/sacchit.mittal/"
-        },
-        {
-            "img": "img/team/ChinarDankhara.png",
-            "name": "Chinar Dankhara",
-            "major": "CS",
-            "title": "Project Lead",
-            "linkedin": "https://www.linkedin.com/in/chinardankhara/",
-            "instagram": "https://www.instagram.com/highchinar/"
-        },
-        {
-            "img": "img/team/NawidTahmid.jpg",
-            "name": "Nawid Tahmid",
-            "major": "CS",
-            "title": "Project Lead",
-            "linkedin": "https://www.linkedin.com/in/akhter-tahmid/",
-            "instagram": "https://www.instagram.com/nawid.tahmid/"
-        },
-        {
-            "img": "img/team/AdhiraChoudhury.jpg",
-            "name": "Adhira Choudhury",
-            "major": "CS",
-            "title": "Project Lead",
-            "linkedin": "https://www.linkedin.com/in/adhira-choudhury/",
-            "instagram": "https://www.instagram.com/adhira.ch/"
-        },
-        {
-            "img": "img/team/KhushiGupta.jpg",
-            "name": "Khushi Gupta",
-            "major": "CS",
-            "title": "Project Lead",
-            "linkedin": "https://www.linkedin.com/in/khushi-gupta-234418205/",
-            "instagram": "https://www.instagram.com/khushiguptaa13/"
-        }
-    ],
-    "Alumni": [
-        {
-            "img": "img/alumni/VamsiDesu.jfif",
-            "name": "Vamsi Desu",
-            "linkedin": "https://www.linkedin.com/in/vamsidesu/"
-        },
-        {
-            "img": "img/alumni/AbhiJoshi.png",
-            "name": "Abhinav Joshi",
-            "linkedin": "https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
-        },
-        {
-            "img": "img/alumni/PranavKhorana.png",
-            "name": "Pranav Khorana",
-            "linkedin": "https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
-        },
-        {
-            "img": "img/alumni/PatrickLiu.png",
-            "name": "Patrick Liu",
-            "linkedin": "https://www.linkedin.com/in/patrickliu2000/"
-        },
-        {
-            "img": "img/alumni/RahulChawla.png",
-            "name": "Rahul Chawla",
-            "linkedin": "https://www.linkedin.com/in/rahul-chawla-017059171/"
-        },
-        {
-            "img": "img/alumni/PranavKhorana.png",
-            "name": "Davon Prewitt",
-            "linkedin": "https://www.linkedin.com/in/davonprewitt/"
-        },
-        {
-            "img": "img/alumni/PranavKhorana.png",
-            "name": "Allison Nakazawa",
-            "linkedin": "https://www.linkedin.com/in/allison-nakazawa/"
-        },
-        {
-            "img": "img/alumni/PranavKhorana.png",
-            "name": "Rahul Zhade",
-            "linkedin": "https://www.linkedin.com/in/rahul-zhade/"
-        },
-        {
-            "img": "img/alumni/KhelanModi.png",
-            "name": "Khelan Modi",
-            "linkedin": "https://www.linkedin.com/in/khelan-modi/"
-        }
-    ],
-    "Features": [
-        {
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        }
-    ],
-    "Speakers": [
-        {
-            "img": "img/speakers/jan.jpeg",
-            "title": "Director of Data Science at Honeywell Connected Enterprise",
-            "name": "Jan Zirnstein",
-            "linkedin": "https://www.linkedin.com/in/janzirnstein/"
-        },
-        {
-            "img": "img/speakers/vijay.jpg",
-            "title": "Lead Data Scientist at Honeywell",
-            "name": "Vijay Kumar Ravi",
-            "linkedin": "https://www.linkedin.com/in/vijaykumarravi/"
-        },
-        {
-            "img": "img/speakers/becca.jpg",
-            "title": "Analytics Engagement Manager at Honeywell",
-            "name": "Becca Smith",
-            "linkedin": "https://www.linkedin.com/in/becca-smith-40ab6329/"
-        },
-        {
-            "img": "img/speakers/alpesh.png",
-            "title": "Director of Architecture at Honeywell",
-            "name": "Alpesh Desai",
-            "linkedin": "https://www.linkedin.com/in/alpeshdesai/"
-        },
-        {
-            "img": "img/speakers/tim.jpeg",
-            "title": "President of Peredom",
-            "name": "Timothy Hanline",
-            "linkedin": "https://www.linkedin.com/in/timothy-hanline/"
-        }
-    ],
-    "Projects": {
-        "2021-2022": [
-            {
-                "img": "",
-                "name": "Project 1",
-                "description": "include social impact and what the project does",
-                "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-            },
-            {
-                "img": "",
-                "name": "Project 2",
-                "description": "include social impact and what the project does",
-                "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-            }
-        ],
-        "2020-2021": [
-            {
-                "img": "",
-                "name": "Project 1",
-                "description": "include social impact and what the project does",
-                "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-            },
-            {
-                "img": "",
-                "name": "Project 2",
-                "description": "include social impact and what the project does",
-                "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-            }
-        ],
-        "2019-2020": [
-            {
-                "img": "",
-                "name": "Project 1",
-                "description": "include social impact and what the project does",
-                "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-            },
-
-            {
-                "img": "",
-                "name": "Project 2",
-                "description": "include social impact and what the project does",
-                "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-            }
-        ]
-    }
+      {
+        "img": "",
+        "name": "Project 2",
+        "description": "include social impact and what the project does",
+        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+      }
+    ]
+  }
 }

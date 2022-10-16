@@ -23,7 +23,7 @@ export const AboutPage = () => {
             <ProjRoles data={JsonData.About.projRoles} />
             {/* <Committees data={JsonData}></Committees> */}
             <div className="gradient" style={{ marginBottom: "3em" }}>
-                <Events data={JsonData.Events}></Events>
+                <Events data={JsonData.About.Events}></Events>
                 <div className="container">
                     <div className="row">
                         <h1
@@ -37,8 +37,8 @@ export const AboutPage = () => {
                         </h1>
                         <div>
                             <ul className="speakers">
-                                {JsonData.Speakers
-                                    ? JsonData.Speakers.map((d, i) => (
+                                {JsonData.About.Speakers
+                                    ? JsonData.About.Speakers.map((d, i) => (
                                           <div className="col-xs-12 personBox">
                                               <Person
                                                   name={d.name}
@@ -67,8 +67,8 @@ export const AboutPage = () => {
                         Where our students end up
                     </h1>
                     <div className="companies">
-                        {JsonData.Companies
-                            ? JsonData.Companies.map((d, i) => (
+                        {JsonData.About.Companies
+                            ? JsonData.About.Companies.map((d, i) => (
                                   <div className="">
                                       <img src={d} alt="img" />
                                   </div>

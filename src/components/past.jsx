@@ -1,5 +1,3 @@
-import JsonData from "../data/data.json";
-
 export const PastSponsors = (props) => {
   
     return (
@@ -16,7 +14,7 @@ export const PastSponsors = (props) => {
             <div className="row">
                 <div className="sponsorBox">
                     <div className="sponsors">
-                        {JsonData.Sponsors3 ? JsonData.Sponsors3.map((d, i) => (
+                        {props.data ? props.data.map((d, i) => (
                             <div className="">
                                 <img src={d} alt="img"/>
                             </div>
