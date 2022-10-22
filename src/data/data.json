@@ -147,32 +147,8 @@
     {
       "img": "img/testimonials/01.jpg",
       "text": "\"My experience with Big Data Big Impact has been intellectually provoking and a ton of fun. I learned something new every day, and I'm being pushed to grow by doing things outside of my comfort zone. I've really loved working with the people here—everyone is incredibly kind and knowledgeable.\"",
-      "name": "Khelan Modi"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"ですさんです.\"",
-      "name": "Vamsi Desu"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"なかざわさん.\"",
-      "name": "Allison Nakazawa"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"testimonal sample.\"",
-      "name": "Rahul Zhade"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Hello World\"",
-      "name": "Moungsung Im"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"The shortest path does not exist.\"",
-      "name": "Dijkstra"
+      "name": "Khelan Modi",
+      "role" : "Former VP"
     }
   ],
   "Contact": {
