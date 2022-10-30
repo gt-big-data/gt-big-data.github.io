@@ -31,13 +31,13 @@ export const Landing = () => {
                 <span>TESTIMONIALS</span>
             </h2>
             <div className="container">
-                {/* <div className="row">
-                    <TestimonialCard>"{JsonData.Testimonials[0].text}"</TestimonialCard>
-                    <TestimonialCard>"{JsonData.Testimonials[1].text}"</TestimonialCard>
-                    <TestimonialCard>"{JsonData.Testimonials[2].text}"</TestimonialCard>
-                </div> */}
+                <div className="row">
+                    {/* <TestimonialCard>{JsonData.Testimonials[0].text}</TestimonialCard> */}
+                    {/* <TestimonialCard>{JsonData.Testimonials[1].text}</TestimonialCard> */}
+                    {/* <TestimonialCard>{JsonData.Testimonials[2].text}</TestimonialCard> */}
+                </div>
                 <Testimonials data= {JsonData.Testimonials}></Testimonials>
-                <h1 style={{'textAlign':'center'}}>COMING SOON</h1>
+                
             </div>
             <Footer data={JsonData.Contact} />
         </div>
