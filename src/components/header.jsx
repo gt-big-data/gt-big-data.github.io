@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Slide, StyledImage, OurCarousel } from "./carousel/styles";
-import { CarouselTest } from "./carousel/CarouselTest";
+import { CarouselComponent } from "./carousel/CarouselComponent";
 
 export const Header = (props) => {
   var settings = {
@@ -19,7 +19,7 @@ export const Header = (props) => {
 
   return (
     <header id="header">
-      <CarouselTest />
+      <CarouselComponent />
       <div className="intro">
         <div className="container">
           <div className="row">
