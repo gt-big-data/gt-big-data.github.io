@@ -29,9 +29,9 @@ export const SponsorsPage = () => {
 
                 </div>
             </div>
-            <DiamondSponsors data={JsonData.Sponsors.DiamondSponsors}/>
-            {/* <PlatinumSponsors data={JsonData.Sponsors.PlatinumSponsors}/> */}
-            <PastSponsors data={JsonData.Sponsors.PastSponsors}/>
+            <DiamondSponsors data={JsonData.Sponsors.Diamond}/>
+            {/* <PlatinumSponsors data={JsonData.Sponsors.Platinum}/> */}
+            <PastSponsors data={JsonData.Sponsors.Past}/>
 
             <Footer data={JsonData.Contact} />
         </div>   
