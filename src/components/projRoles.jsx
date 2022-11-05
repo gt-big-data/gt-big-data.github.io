@@ -2,18 +2,17 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 function RoleCard(props) {
-
     const [hover, setHover] = useState({
         hover: false,
-        load: false
+        load: false,
     });
 
     useEffect(() => {
         setHover({
             hover: false,
-            load: false
-        })
-    },[])
+            load: false,
+        });
+    }, []);
 
     function setClass() {
         if (hover.hover) {
@@ -26,9 +25,9 @@ function RoleCard(props) {
 
     function visibility() {
         if (hover.hover) {
-            return "descText fade-in"
+            return "descText fade-in";
         } else if (hover.load) {
-            return "descText fade-out"
+            return "descText fade-out";
         }
         return "descText";
     }
@@ -37,13 +36,13 @@ function RoleCard(props) {
         if (hover.hover) {
             setHover({
                 hover: false,
-                load: true
+                load: true,
             });
         } else {
             setHover({
                 hover: true,
-                load: true
-            })
+                load: true,
+            });
         }
     }
 
@@ -51,11 +50,14 @@ function RoleCard(props) {
         <div>
             <div className="role-card">
                 <div className="role-title">
-                    <div className='btn-custom page-scroll'>
+                    <div className="btn-custom page-scroll">
                         {props.data.title}
                     </div>
                 </div>
-                <div className={visibility()} style={{'backgroundColor':'rgba(99, 114, 255, 0.5)'}}>
+                <div
+                    className="roleCard"
+                    style={{ backgroundColor: "rgba(99, 114, 255, 0.5)" }}
+                >
                     {props.data.desc}
                 </div>
             </div>
@@ -63,25 +65,43 @@ function RoleCard(props) {
     );
 }
 
-
-
 export const ProjRoles = (props) => {
-
     return (
-        <div className=" project-roles container">
-            <div className="row" style={{'marginBottom':'5em'}}>
+        <div>
+            <div style={{ marginBottom: "5em" }}>
                 {/* <div className="project-img">
                     <img src="../img/project_team.png" alt="project" />
                 </div> */}
-                <h1 style={{textAlign: 'center',color: '#6372ff', margin: '2em 1em 2em 1em'}}>Project roles</h1>
-                <h3 >Learn more about each of the 3 roles every project has! 
-                    Each role has workshops that help
-                    students develop production-level code. <span style={{'color':'#6372ff'}}></span>
-                </h3>
-                <RoleCard data={props.data.analysisRole}></RoleCard>
-                <RoleCard data={props.data.platformRole}></RoleCard>
-                <RoleCard data={props.data.datavizRole}></RoleCard>
+                <h1
+                    style={{
+                        textAlign: "center",
+                        color: "#6372ff",
+                        margin: "2em 1em 1em 1em",
+                    }}
+                >
+                    Project roles
+                </h1>
+                <span className="centerRole">
+                    <h3 className="centerRoleInfo">
+                        Learn more about each of the 3 roles every project has!
+                        Each role has workshops that help students develop
+                        production-level code.{" "}
+                        <span style={{ color: "#6372ff" }}></span>
+                    </h3>
+                </span>
+                <RoleCard
+                    data={props.data.analysisRole}
+                    className="roleCard"
+                ></RoleCard>
+                <RoleCard
+                    data={props.data.platformRole}
+                    className="roleCard"
+                ></RoleCard>
+                <RoleCard
+                    data={props.data.datavizRole}
+                    className="roleCard"
+                ></RoleCard>
             </div>
         </div>
     );
-}
+};
