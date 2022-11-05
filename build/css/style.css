@@ -17,7 +17,6 @@ body {
   overflow: auto;
 }
 
-
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -387,7 +386,8 @@ header .intro-text {
 }
 /* About Section */
 
-#about, #contact-form {
+#about,
+#contact-form {
   padding: 120px 0 100px 0;
   position: relative;
 }
@@ -404,7 +404,8 @@ header .intro-text {
   padding-bottom: 15px;
 }
 
-#about h2::after, #contact-form h2::after {
+#about h2::after,
+#contact-form h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -426,7 +427,6 @@ header .intro-text {
   font-style: italic;
 }
 
-
 #about .about-text p {
   font-size: 24px;
   line-height: 1.5em;
@@ -437,7 +437,6 @@ header .intro-text {
     display: flex;
     flex-direction: row;
   }
-  
 }
 
 @media (max-width: 991px) {
@@ -445,7 +444,6 @@ header .intro-text {
     display: flex;
     flex-direction: column;
   }
-  
 }
 
 #about .about-text li:before {
@@ -635,13 +633,13 @@ header .intro-text {
 
 @media (min-width: 1200px) {
   .project-img {
-    position: absolute; 
+    position: absolute;
     filter: grayscale(100%);
     top: 41%;
     left: 40%;
     transform: translateX(0px);
   }
-  
+
   .project-roles img {
     width: 80%;
     opacity: 0.2;
@@ -651,29 +649,28 @@ header .intro-text {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .project-img {
-    position: absolute; 
+    position: absolute;
     filter: grayscale(100%);
     top: 42%;
     left: 30%;
     transform: translateX(20px);
   }
-  
+
   .project-roles img {
     width: 80%;
     opacity: 0.2;
     border-radius: 20px;
   }
-  
 }
 
 @media (min-width: 675px) and (max-width: 991px) {
   .project-img {
-    position: absolute; 
+    position: absolute;
     filter: grayscale(100%);
     top: 47%;
     left: 40%;
   }
-  
+
   .project-roles img {
     width: 80%;
     height: 375px;
@@ -684,7 +681,7 @@ header .intro-text {
 
 @media (max-width: 674px) {
   .project-img {
-    position: absolute; 
+    position: absolute;
     filter: grayscale(100%);
     top: 40%;
     left: 8%;
@@ -692,7 +689,7 @@ header .intro-text {
     bottom: 47%;
     transform: translateX(5%);
   }
-  
+
   .project-roles img {
     width: 90%;
     height: 550px;
@@ -700,7 +697,6 @@ header .intro-text {
     border-radius: 20px;
   }
 }
-
 
 .project-roles h3 {
   line-height: 1.5em;
@@ -783,7 +779,7 @@ header .intro-text {
     margin-right: auto;
     padding-right: 0em;
   }
-  
+
   .role-card .default {
     height: 0px;
     overflow: hidden;
@@ -796,11 +792,10 @@ header .intro-text {
     border-radius: 45px;
   }
 
-
   .fade-in {
     animation: fade-in 0.25s ease-in-out 0s forwards;
   }
-  
+
   @keyframes fade-in {
     from {
       opacity: 0;
@@ -819,11 +814,11 @@ header .intro-text {
       flex-basis: 70%;
     }
   }
-  
+
   .fade-out {
     animation: fade-out 0.25s ease-in-out 0s forwards;
   }
-  
+
   @keyframes fade-out {
     from {
       height: 100%;
@@ -842,7 +837,6 @@ header .intro-text {
       background-color: white;
     }
   }
-  
 }
 
 @media (min-width: 675px) {
@@ -860,9 +854,8 @@ header .intro-text {
     margin: auto;
     padding: 1em;
     border-radius: 45px;
-    flex-basis: 70%; 
+    flex-basis: 70%;
   }
-
 
   .fade-in {
     animation: fade-in 0.25s ease-in-out 0s forwards;
@@ -878,11 +871,11 @@ header .intro-text {
       background-color: rgba(99, 114, 255, 0.5);
     }
   }
-  
+
   .fade-out {
     animation: fade-out 0.25s ease-in 0s forwards;
   }
-  
+
   @keyframes fade-out {
     from {
       opacity: 1;
@@ -893,7 +886,6 @@ header .intro-text {
       background-color: white;
     }
   }
-  
 }
 
 .container-comm {
@@ -993,7 +985,6 @@ header .intro-text {
   margin-bottom: 2em;
 }
 
-
 .events li span::before {
   content: "\f00c";
   font-family: "FontAwesome";
@@ -1091,7 +1082,6 @@ header .intro-text {
 .gradient {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 }
-
 
 .gradient > .container {
   padding-bottom: 3em;
@@ -1282,9 +1272,8 @@ header .intro-text {
   to {
     opacity: 1;
   }
-  
 }
- /* #contact .section-title {
+/* #contact .section-title {
   margin-bottom: 40px;
 }
 #contact .section-title p {
@@ -1396,7 +1385,6 @@ label {
   justify-content: space-evenly;
 }
 
-
 #contact .social ul li {
   display: inline-block;
   margin: 0 20px;
@@ -1442,18 +1430,24 @@ label {
 
 /* Team Section */
 
-#team, #alumni, #project {
+#team,
+#alumni,
+#project {
   padding: 120px 0 100px 0;
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
-#team h4, #alumni h4, #project h4 {
+#team h4,
+#alumni h4,
+#project h4 {
   margin: 5px 0;
 }
 
-#team h2::after, #alumni h2::after, #project h2::after {
+#team h2::after,
+#alumni h2::after,
+#project h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -1461,31 +1455,27 @@ label {
   width: 10%;
   bottom: 0;
   left: 45%;
-
 }
 
 #team .cardrow,
 #alumni .cardrow,
 #project .cardrow {
-   
   flex-direction: row;
   flex-wrap: wrap;
   display: flex;
-  
-  align-items: center; 
+
+  align-items: center;
   justify-content: space-evenly;
   margin: auto;
-  
 }
 
 #team .card,
 #alumni .card,
 #project .card {
-  
   margin: 6em 2em 2em 2em;
   width: 220px;
   font-family: sans-serif;
-  
+
   padding: 20px;
   box-shadow: 0 0 22px #3336;
   border-radius: 16px;
@@ -1617,5 +1607,3 @@ label {
 .custom-shape-divider-bottom-1648670826 .shape-fill {
   fill: #ffffff;
 }
-
-

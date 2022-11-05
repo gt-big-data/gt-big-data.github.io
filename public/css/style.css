@@ -321,19 +321,20 @@ button:focus,
 }
 
 /* Header Section */
+#header {
+  overflow: hidden;
+}
+
 .intro {
+    position: absolute;
+    top: 0;
     display: table;
     width: 100%;
     padding: 0;
-    background-color: #e5e5e5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-.intro .overlay {
-    background: rgba(0, 0, 0, 0.2);
 }
 
 .intro h1 {
@@ -901,7 +902,6 @@ header .intro-text {
             flex-basis: 70%;
         }
     }
-
     .fade-out {
         animation: fade-out 0.25s ease-in-out 0s forwards;
     }

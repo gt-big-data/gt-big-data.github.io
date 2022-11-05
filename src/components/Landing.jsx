@@ -4,7 +4,7 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import JsonData from "../data/data.json";
 import { Testimonials } from "./testimonials";
-import { CarouselTest } from "./carousel/CarouselTest";
+import { CarouselComponent } from "./carousel/CarouselComponent";
 
 const TestimonialCard = ({ children }) => {
     return (
