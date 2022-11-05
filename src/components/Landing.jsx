@@ -24,7 +24,6 @@ export const Landing = () => {
         <div>
             <Navigation />
             <div className="landing">
-                <CarouselTest />
                 <Header data={JsonData.Header} />
             </div>
             <h2 className="testimonial">
