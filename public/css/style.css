@@ -749,7 +749,7 @@ header .intro-text {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 60em;
+    width: 90vw;
     border-radius: 30px;
     padding: 2em;
     background: rgb(235, 235, 235);
