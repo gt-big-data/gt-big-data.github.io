@@ -1573,6 +1573,12 @@ label {
     top: 75px;
     left: 42px;
 }
+/* alumni only has linkedlin, therefore left is removed in order to set the icon center*/
+#alumni .social-link {
+    position: absolute;
+    top: 75px;
+    /* left: 42px; */
+}
 
 #team .social-links a,
 #alumni .social-links a,
@@ -1581,6 +1587,14 @@ label {
     color: #333;
     margin-right: 15px;
     margin-left: 15px;
+    font-size: 21px;
+}
+/* alumni only has linkedlin, therefore marginleft is removed in order to set the icon center*/
+#alumni .social-link a {
+    text-align: center;
+    color: #333;
+    margin-right: 15px;
+    /* margin-left: 15px; */
     font-size: 21px;
 }
 
