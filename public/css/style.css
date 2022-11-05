@@ -734,19 +734,47 @@ header .intro-text {
 
 .role-card {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: center;
+    padding: 10px;
     margin: 2em 1em 2em 1em;
 }
 
+.centerRoleInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 60em;
+    border-radius: 30px;
+    padding: 2em;
+    background: rgb(235, 235, 235);
+    box-shadow: 0 0 15px #3336;
+}
+
+.centerRole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
 .role-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: center;
     margin: 2em;
-    padding-right: 2em;
     font-size: 20px;
     color: #333;
     font-weight: 600;
-    display: flex;
-    flex-direction: row;
     width: 8em;
     max-height: 100px;
 }
@@ -765,6 +793,35 @@ header .intro-text {
 
 .descText {
     color: black;
+}
+
+.roleCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 30em;
+    border-radius: 40px;
+    padding: 2.5em;
+    font-size: 1em;
+    font-weight: 400;
+    color: black;
+    background: linear-gradient(
+        to right,
+        rgb(193, 221, 253),
+        rgb(173, 208, 253)
+    );
+    box-shadow: 0 0 15px #3336;
+}
+
+.speakerTextSize {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 1em;
 }
 
 /* .shade {
@@ -799,7 +856,7 @@ header .intro-text {
   }
 } */
 
-@media (max-width: 674px) {
+/*@media (max-width: 674px) {
     .role-card {
         flex-direction: column;
     }
@@ -867,7 +924,7 @@ header .intro-text {
             background-color: white;
         }
     }
-}
+}*/
 
 @media (min-width: 675px) {
     .default {
@@ -1059,7 +1116,6 @@ header .intro-text {
     padding: 20px;
     box-shadow: 0 0 22px #3336;
     border-radius: 30px;
-    height: 12em;
     background-color: #ebebeb;
 }
 
@@ -1084,11 +1140,11 @@ header .intro-text {
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 .person-text h3 {
-    font-size: 2em;
+    font-size: 2.2em;
     color: #2f5f93;
 }
 
