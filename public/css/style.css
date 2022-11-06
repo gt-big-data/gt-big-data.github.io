@@ -1631,8 +1631,8 @@ label {
 }
 /* alumni only has linkedlin, therefore left is removed in order to set the icon center*/
 #alumni .social-link {
-    position: absolute;
-    top: 75px;
+    /* position: absolute; */
+    top: 30px;
     /* left: 42px; */
 }
 
