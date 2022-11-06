@@ -60,7 +60,7 @@ export const AlumniPage = (props) => {
             {JsonData.Alumni
               ? JsonData.Alumni.map((d, i) => (
                 <div className='card col-xs-4'>
-                  <img alt="" src={d.img} />
+                  <img alt="" src={d.img} style={{marginTop:'35px'}}/>
                   <div className='caption'>
                     <h4>{d.name}</h4>
                     <p>{d.title}</p>
