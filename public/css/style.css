@@ -1706,11 +1706,12 @@ label {
     font-weight: 600;
     color: #666;
   }
-/* the original testimonial css.
-.testimonial {
+  .testimonial {
     text-align: center;
     margin: 1em;
 }
+/* the original testimonial css.
+
 
 .testimonial > span {
     position: relative;
