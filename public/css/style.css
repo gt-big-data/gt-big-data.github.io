@@ -1303,6 +1303,12 @@ header .intro-text {
     border-radius: 20px;
 }
 
+#testimonials .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 #testimonials i {
     color: #e6e6e6;
     font-size: 32px;
