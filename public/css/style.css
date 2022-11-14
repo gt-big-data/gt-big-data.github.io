@@ -1822,7 +1822,7 @@ label {
     font-weight: 600;
     color: #666;
   }
-  .testimonial {
+  .testimonial-text, .testimonial {
     text-align: center;
     margin: 1em;
 }

@@ -23,20 +23,16 @@ export const Landing = () => {
     return (
         <div>
             <Navigation />
-            <div className="landing">
+            <div className="landing" style={{"marginBottom": "-2em"}}>
                 <Header data={JsonData.Header} />
             </div>
-            <h2 className="testimonial">
-                <span>TESTIMONIALS</span>
-            </h2>
+            <h1 className="testimonial-text" style={
+                {"textAlign": "center","color": "rgb(51, 51, 51)","margin": "2em 1em 1em"}
+            }>
+                Testimonials
+            </h1>
             <div className="container">
-                <div className="row">
-                    {/* <TestimonialCard>{JsonData.Testimonials[0].text}</TestimonialCard> */}
-                    {/* <TestimonialCard>{JsonData.Testimonials[1].text}</TestimonialCard> */}
-                    {/* <TestimonialCard>{JsonData.Testimonials[2].text}</TestimonialCard> */}
-                </div>
-                <Testimonials data= {JsonData.Testimonials}></Testimonials>
-                
+                <Testimonials data= {JsonData.Testimonials}></Testimonials> 
             </div>
             <Footer data={JsonData.Contact} />
         </div>
