@@ -343,25 +343,51 @@ button:focus,
 .intro h1 {
     font-family: "Raleway", sans-serif;
     color: #fff;
-    font-size: 82px;
+    font-size: 65px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.intro h1 span {
-    font-weight: 800;
-    color: #2fa8ed;
+    margin-top: -0.5em;
+    margin-bottom: 0.25em;
 }
 
 .intro p {
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 30px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 1em;
+}
+
+.intro a.btn-custom {
+    padding: 10px 24px;
+    font-size: 12px;
+}
+
+@media (min-width: 393px) {
+    .intro h1 {
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        font-size: 82px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: -0.5em;
+        margin-bottom: 0.25em;
+    }
+
+    .intro p {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 30px;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+
+    .intro a.btn-custom {
+        padding: 14px 34px;
+        font-size: 15px;
+    }
 }
 
 header .intro-text {
@@ -1822,7 +1848,7 @@ label {
     font-weight: 600;
     color: #666;
   }
-  .testimonial {
+  .testimonial-text, .testimonial {
     text-align: center;
     margin: 1em;
 }
