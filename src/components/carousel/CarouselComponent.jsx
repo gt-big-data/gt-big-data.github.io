@@ -8,11 +8,11 @@ export const CarouselComponent = () => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     adaptiveHeight: true,
   };
   return (
