@@ -41,9 +41,6 @@ export const CarouselComponent = () => {
             <StyledImage src="img/carousel/bdbi7.jpg" />
           </Slide>
           <Slide>
-            <StyledImage src="img/carousel/bdbi20.jpg" />
-          </Slide>
-          <Slide>
             <StyledImage src="img/carousel/bdbi8.jpg" />
           </Slide>
           <Slide>
