@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-html {
+/* html {
     position: fixed;
     overflow: auto;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-}
+} */
 
 body {
     height: 100%;
@@ -141,6 +141,10 @@ hr {
     .collapse.in {
         display: block !important;
     }
+}
+
+.page-scroll {
+    text-align: left;
 }
 
 .link {
@@ -1426,7 +1430,7 @@ header .intro-text {
     border-radius: 20px;
 }
 
-#testimonials .row {
+#testimonials .testimonials_row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
