@@ -7,8 +7,14 @@ import { PlatinumSponsors } from "./platinum";
 import JsonData from "../data/data.json";
 import { PastSponsors } from "./past";
 import sponsorPDF from '../data/BDBISponsorshipPacket.pdf'
+import { useEffect } from "react";
 
 export const SponsorsPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
     return (
         <div>
         <div id='sponsors' className="text-center">

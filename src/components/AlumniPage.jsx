@@ -1,12 +1,16 @@
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
 import JsonData from "../data/data.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 //add on if necessary - past years
 let years = ["2021", "2020", "2019"];
 
 export const AlumniPage = (props) => {
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
 
   const [year, setYear] = useState("2021");
 

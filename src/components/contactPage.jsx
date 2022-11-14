@@ -1,6 +1,6 @@
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { send } from "emailjs-com";
 
 const initialState = {
@@ -120,6 +120,10 @@ const Contact = (props) => {
 
 
 export const ContactPage = (props) => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
 
     return (
         <div>

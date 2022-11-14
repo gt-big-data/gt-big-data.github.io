@@ -1,7 +1,15 @@
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
 import JsonData from "../data/data.json";
+import { useEffect } from "react";
+
+
 export const Team = (props) => {
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])  
+
   return (
     <div>
       <div id='team' className='text-center'>

@@ -18,6 +18,7 @@ export const Landing = () => {
     const [landingPageData, setLandingPageData] = useState({});
     useEffect(() => {
         setLandingPageData(JsonData);
+        window.scrollTo(0,0);
     }, []);
 
     return (

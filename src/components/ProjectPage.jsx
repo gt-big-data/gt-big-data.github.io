@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
 import JsonData from "../data/data.json";
@@ -8,6 +8,11 @@ let years = ["2021-2022", "2020-2021", "2019-2020"];
 
 export const ProjectPage = () => {
     const [year, setYear] = useState("2021-2022");
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
     const YearButton = (props) => {
         return (
           <button className='btn btn-custom page-scroll' onClick={e => setY(e)}>

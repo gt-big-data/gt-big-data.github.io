@@ -8,12 +8,19 @@ import { Committees } from "./committees";
 import { Events } from "./events";
 import { Person } from "./person";
 import JsonData from "../data/data.json";
+import { useEffect } from "react";
 
 export const AboutPage = () => {
     // const [aboutPageData, setAboutPageData] = useState({});
     // useEffect(() => {
     //     setAboutPageData(JsonData);
     // }, );
+
+    
+    useEffect(() => {
+        window.scrollTo(0,0)
+        
+    }, [])
 
     return (
         <div>
