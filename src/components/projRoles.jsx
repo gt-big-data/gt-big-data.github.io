@@ -56,7 +56,6 @@ function RoleCard(props) {
                 </div>
                 <div
                     className="roleCard"
-                    style={{ backgroundColor: "rgba(99, 114, 255, 0.5)" }}
                 >
                     {props.data.desc}
                 </div>
@@ -75,7 +74,7 @@ export const ProjRoles = (props) => {
                 <h1
                     style={{
                         textAlign: "center",
-                        color: "#6372ff",
+                        color: "#333",
                         margin: "2em 1em 1em 1em",
                     }}
                 >
@@ -86,7 +85,7 @@ export const ProjRoles = (props) => {
                         Learn more about each of the 3 roles every project has!
                         Each role has workshops that help students develop
                         production-level code.{" "}
-                        <span style={{ color: "#6372ff" }}></span>
+                        <span style={{ color:"#6372ff"}}></span>
                     </h3>
                 </span>
                 <RoleCard

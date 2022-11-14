@@ -1,3 +1,6 @@
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -77,7 +80,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #6372ff;
+    color: #2fa8ed;
 }
 
 ul,
@@ -191,7 +194,7 @@ hr {
     bottom: -1px;
     width: 0;
     height: 2px;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: linear-gradient(to left, #194eaa 0%, #2fa8ed 100%);
     content: "";
     transition: width 0.2s;
 }
@@ -215,7 +218,7 @@ hr {
     bottom: -1px !important;
     width: 100% !important;
     height: 2px !important;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+    background: linear-gradient(to left, #194eaa 0%, #2fa8ed 100%) !important;
     content: "" !important;
     transition: width 0.2s !important;
 }
@@ -253,8 +256,8 @@ hr {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #fff;
-    background-color: #5ca9fb;
-    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    background-color: #2fa8ed;
+    background-image: linear-gradient(to right, #2fa8ed 0%, #194eaa 100%);
     padding: 14px 34px;
     letter-spacing: 1px;
     margin: 0;
@@ -272,7 +275,7 @@ hr {
 .btn-custom.active {
     color: #fff;
     background-image: none;
-    background-color: #6372ff;
+    background-color: #2fa8ed;
 }
 
 .btn:active,
@@ -349,7 +352,7 @@ button:focus,
 
 .intro h1 span {
     font-weight: 800;
-    color: #5ca9fb;
+    color: #2fa8ed;
 }
 
 .intro p {
@@ -381,7 +384,7 @@ header .intro-text {
     height: 100px;
     padding: 30px 0;
     border-radius: 50%;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: linear-gradient(to left, #194eaa 0%, #2fa8ed 100%);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -408,7 +411,7 @@ header .intro-text {
 #contact-form h2::after {
     position: absolute;
     content: "";
-    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    background: linear-gradient(to right, #2fa8ed 0%, #194eaa 100%);
     height: 4px;
     width: 10%;
     bottom: 0;
@@ -449,7 +452,7 @@ header .intro-text {
 #about .about-text li:before {
     content: "\f00c";
     font-family: "FontAwesome";
-    color: #5ca9fb;
+    color: #2fa8ed;
     font-size: 11px;
     font-weight: 300;
     padding-right: 8px;
@@ -478,7 +481,7 @@ header .intro-text {
 #sponsors h2::after {
     position: absolute;
     content: "";
-    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    background: linear-gradient(to right, #2fa8ed 0%, #194eaa 100%);
     height: 4px;
     width: 10%;
     bottom: 0;
@@ -537,8 +540,8 @@ header .intro-text {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #fff;
-    background-color: #5ca9fb;
-    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    background-color: #2fa8ed;
+    background-image: linear-gradient(to right, #2fa8ed 0%, #194eaa 100%);
     padding: 14px 34px;
     letter-spacing: 1px;
     margin: 5px;
@@ -551,8 +554,8 @@ header .intro-text {
 
 .btn-primary3 {
     color: #fff;
-    background-color: #5ca9fb;
-    border-color: #6372ff;
+    background-color: #2fa8ed;
+    border-color: #2fa8ed;
     border-width: 3px;
     position: relative;
     left: 40%;
@@ -562,7 +565,7 @@ header .intro-text {
 .diamond {
     padding-top: 100px;
     position: relative;
-    background: linear-gradient(to top, #5ca9fb 0%, #6372ff 100%);
+    background: linear-gradient(to bottom, #2fa8ed 0%, #194eaa 100%);
 }
 
 .diamond > div.container {
@@ -577,7 +580,7 @@ header .intro-text {
 .whyBDBI {
     padding-top: 100px;
     position: relative;
-    background: linear-gradient(to top, #5ca9fb 0%, #6372ff 100%);
+    background: linear-gradient(to bottom, #2fa8ed 0%, #194eaa 100%);
 }
 
 .whyBDBI > div.container {
@@ -750,7 +753,7 @@ header .intro-text {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 75vw;
     border-radius: 30px;
     padding: 2em;
     background: rgb(235, 235, 235);
@@ -799,20 +802,16 @@ header .intro-text {
 .roleCard {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     text-align: center;
     flex-wrap: wrap;
     width: 30em;
     border-radius: 40px;
     padding: 2.5em;
-    font-size: 1em;
+    font-size: 20px;
     font-weight: 400;
-    color: black;
-    background: linear-gradient(
-        to right,
-        rgb(193, 221, 253),
-        rgb(173, 208, 253)
-    );
+    color: #666;
+    background-color: #2fa7ed6a;
     box-shadow: 0 0 15px #3336;
 }
 
@@ -955,7 +954,7 @@ header .intro-text {
         }
         to {
             opacity: 1;
-            background-color: rgba(99, 114, 255, 0.5);
+            background-color: #194eaa;
         }
     }
 
@@ -966,7 +965,7 @@ header .intro-text {
     @keyframes fade-out {
         from {
             opacity: 1;
-            background-color: rgba(99, 114, 255, 0.5);
+            background-color: #194eaa;
         }
         to {
             opacity: 0;
@@ -1020,7 +1019,7 @@ header .intro-text {
 .comm-team {
     font-size: 32px;
     text-transform: uppercase;
-    color: rgba(99, 114, 255, 0.8);
+    color: #194eaa;
     text-align: center;
     margin-bottom: 0.5em;
 }
@@ -1038,9 +1037,9 @@ header .intro-text {
     text-align: center;
     color: #fff;
     background: linear-gradient(
-        to right,
-        rgba(99, 114, 255, 0.8) 0%,
-        rgba(92, 169, 251, 0.8) 100%
+        to left,
+        #194eaa 0%,
+        #2fa8ed 100%
     );
     height: 100%;
     width: 100%;
@@ -1075,7 +1074,7 @@ header .intro-text {
 .events li span::before {
     content: "\f00c";
     font-family: "FontAwesome";
-    color: #5ca9fb;
+    color: #2fa8ed;
     font-size: 1em;
     font-weight: 300;
     padding-right: 8px;
@@ -1114,7 +1113,7 @@ header .intro-text {
     width: 36em;
     font-family: sans-serif;
     padding: 20px;
-    box-shadow: 0 0 22px #3336;
+    box-shadow: 0 0 22px #333;
     border-radius: 30px;
     background-color: #ebebeb;
 }
@@ -1145,45 +1144,159 @@ header .intro-text {
 
 .person-text h3 {
     font-size: 2.2em;
-    color: #2f5f93;
+    color: #194eaa;
 }
 
 .person-text span {
-    font-size: 1em;
-    color: #000000;
+    font-size: 1.3em;
+    color: #666;
     font-weight: 500;
 }
 
 .person a {
-    color: #000000;
+    color: #333;
     margin: auto 0 auto 20px;
     padding: 1em;
 }
 
 .person a:hover {
-    color: #5ca9fb;
+    color: #2fa8ed;
     transition: 0.25s;
     margin: auto 0 auto 20px;
     padding: 1em;
 }
 
+/* Company Sliding Bar */
+/* 
+#contact {
+    margin-top: 4em;
+}
+
 .companies {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.companies div {
+    max-width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marquee {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    opacity: 50%;
+}
+.marquee--inner {
+    width: 400%;
+    position: absolute;
+    animation: marquee 20s linear infinite;
     display: flex;
 }
 
-.companies div {
-    text-align: center;
-    margin: 2em 0 2em 0;
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -200%; }
+}
+.companies div img {
+    max-width: 80%;
+    max-height: 40%;
+} */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .companies {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .companies div {
+        max-width: 200px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .marquee {
+        height: 150px;
+        overflow: hidden;
+        position: relative;
+        opacity: 50%;
+    }
+    .marquee--inner {
+        width: 800%;
+        position: absolute;
+        animation: marquee 20s linear infinite;
+        display: flex;
+    }
+    @keyframes marquee {
+        0% { left: 0; }
+        100% { left: -400%; }
+    }
+    .companies div img {
+        max-width: 95%;
+        max-height: 35%;
+    } 
+    #contact {
+        margin-top: 2em;
+    }
+
+    @media (min-width: 615px) {
+        .marquee {
+            height: 150px;
+            overflow: hidden;
+            position: relative;
+            opacity: 50%;
+        }
+        .marquee--inner {
+            width: 600%;
+            position: absolute;
+            animation: marquee 20s linear infinite;
+            display: flex;
+        }
+        @keyframes marquee {
+            0% { left: 0; }
+            100% { left: -300%; }
+        }
+        .companies div img {
+            max-width: 95%;
+            max-height: 40%;
+        }  
+    }
+
+    @media (min-width: 1000px) {
+        .marquee {
+            height: 150px;
+            overflow: hidden;
+            position: relative;
+            opacity: 50%;
+        }
+        .marquee--inner {
+            width: 400%;
+            position: absolute;
+            animation: marquee 20s linear infinite;
+            display: flex;
+        }
+        @keyframes marquee {
+            0% { left: 0; }
+            100% { left: -200%; }
+        }
+        .companies div img {
+            max-width: 95%;
+            max-height: 40%;
+        }
+    }
 }
 
-.companies div img {
-    width: 25%;
-    min-width: 72px;
-    min-height: 72px;
-}
+
+/* Gradient */
 
 .gradient {
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: linear-gradient(to left, #194eaa 0%, #2fa8ed 100%);
 }
 
 .gradient > .container {
@@ -1193,7 +1306,7 @@ header .intro-text {
 /* Services Section */
 #services {
     padding: 100px 0;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: linear-gradient(to left, #194eaa 0%, #2fa8ed 100%);
     color: #fff;
 }
 
@@ -1221,7 +1334,7 @@ header .intro-text {
     width: 120px;
     height: 120px;
     padding: 40px 0;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: linear-gradient(to left, #194eaa 0%, #2fa8ed 100%);
     border-radius: 50%;
     color: #fff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -1263,9 +1376,9 @@ header .intro-text {
     margin: 0;
     color: #fff;
     background: linear-gradient(
-        to right,
-        rgba(99, 114, 255, 0.8) 0%,
-        rgba(92, 169, 251, 0.8) 100%
+        to left,
+        #194eaa 0%,
+        #2fa8ed 100%
     );
     padding: 30% 0 0;
     height: 100%;
@@ -1361,9 +1474,8 @@ header .intro-text {
 
 #contact {
     padding-top: 1em;
-    margin-top: 4em;
     padding-bottom: 1em;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: linear-gradient(to left, #194eaa 0%, #2fa8ed 100%);
     color: rgba(255, 255, 255, 0.75);
 }
 
@@ -1530,7 +1642,7 @@ label {
 .text::after {
     position: absolute;
     content: "";
-    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    background: linear-gradient(to right, #2fa8ed 0%, #194eaa 100%);
     height: 5px;
     width: 25%;
     bottom: 0;
@@ -1559,7 +1671,7 @@ label {
 #project h2::after {
     position: absolute;
     content: "";
-    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    background: linear-gradient(to right, #2fa8ed 0%, #194eaa 100%);
     height: 4px;
     width: 10%;
     bottom: 0;
@@ -1612,34 +1724,32 @@ label {
 
 #team .social-links .linkedin:hover,
 #alumni .social-links .linkedin:hover {
-    color: #449cfb;
+    color: #2fa8ed;
 }
 
 #team .social-links .twitter:hover,
 #alumni .social-links .twitter:hover {
-    color: #5794d6;
+    color: #2fa8ed;
 }
 
 #team .social-links .insta:hover,
 #alumni .social-links .insta:hover {
-    color: #772362;
+    color: #2fa8ed;
 }
 
 #project .social-links .github:hover {
     color: rgba(66, 63, 63, 0.605);
 }
 
-#team .social-links,
-#alumni .social-links {
+#team .social-links {
     position: absolute;
     top: 75px;
     left: 42px;
 }
-/* alumni only has linkedlin, therefore left is removed in order to set the icon center*/
-#alumni .social-link {
-    /* position: absolute; */
-    top: 30px;
-    /* left: 42px; */
+
+#alumni .social-links {
+    position: absolute;
+    left: 66px;
 }
 
 #team .social-links a,

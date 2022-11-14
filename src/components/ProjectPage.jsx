@@ -26,7 +26,7 @@ export const ProjectPage = () => {
                 <h2>Projects</h2>
                 <p>Check out our Projects for the current and past years!</p>
             </div>
-            <h1 style={{'textAlign':'center', 'marginBottom':'5em'}}>COMING SOON</h1>
+            <h1 style={{'textAlign':'center', 'marginBottom':'6em'}}>COMING SOON</h1>
             {/* <div className="container">
                 <div className="btn-group">
                 {

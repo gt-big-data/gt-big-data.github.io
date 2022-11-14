@@ -100,7 +100,7 @@ const Contact = (props) => {
                                     <p className='help-block text-danger'></p>
                                 </div>
                                 <div id='success'></div>
-                                    <button type='submit' className='btn btn-custom btn-lg' style={{"marginBottom": "4em"}}>
+                                    <button type='submit' className='btn btn-custom btn-lg' style={{"marginBottom": "8em"}}>
                                         Send Message
                                  </button>
                             </form>

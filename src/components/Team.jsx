@@ -23,9 +23,9 @@ export const Team = (props) => {
                     <h4>{d.name}</h4>
                     <p>{d.title}</p>
                     <div class="social-links">
-                      {d.linkedin ? <a href={d.linkedin} className="linkedin"><i class="fa fa-linkedin"></i></a> : ""}
-                      {d.instagram ? <a href={d.instagram} className="insta"><i class="fa fa-instagram"></i></a> : ""}
-                      {d.twitter ? <a href={d.twitter} className="twitter"><i class="fa fa-twitter"></i></a> : ""}
+                      {d.linkedin ? <a href={d.linkedin} className="linkedin" target={"_blank"}><i class="fa fa-linkedin"></i></a> : ""}
+                      {d.instagram ? <a href={d.instagram} className="insta" target={"_blank"}><i class="fa fa-instagram"></i></a> : ""}
+                      {d.twitter ? <a href={d.twitter} className="twitter" target={"_blank"}><i class="fa fa-twitter"></i></a> : ""}
                     </div>
                   </div>
                 </div>

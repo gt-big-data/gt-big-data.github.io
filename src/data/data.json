@@ -40,11 +40,11 @@
       "projRoles": {
           "analysisRole": {
               "title": "Analysis",
-              "desc": "If you like Data Science and ML, this role is for you! You will analyze rich data and develop models that translates to social impact."
+              "desc": "If you like Data Science and ML, this role is for you! You will analyze rich data and develop models that translate to social impact."
           },
           "platformRole": {
               "title": "Platform",
-              "desc": "If you are interested in API development, this role is for you! You will design the backend that helps power the projects' web app."
+              "desc": "If you are interested in API development, this role is for you! You will design the backend that helps power the project's web app."
           },
           "datavizRole": {
               "title": "DataViz",
@@ -90,7 +90,13 @@
         "img/company_icons/amazon.png",
         "img/company_icons/meta.png",
         "img/company_icons/google.png",
-        "img/company_icons/msft.png"
+        "img/company_icons/msft.png",
+        "img/company_icons/lyft.png",
+        "img/company_icons/salesforce.png",
+        "img/company_icons/datadog.png",
+        "img/company_icons/tesla.png",
+        "img/company_icons/citadel.png",
+        "img/company_icons/bloomberg.png"
       ],
       "Speakers": [
         {

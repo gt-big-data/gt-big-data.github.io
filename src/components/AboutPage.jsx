@@ -30,7 +30,7 @@ export const AboutPage = () => {
                             style={{
                                 textAlign: "center",
                                 margin: "1em 1em 0em 1em",
-                                color: "#ffffff ",
+                                color: "#ffffff",
                             }}
                         >
                             Past speakers
@@ -60,20 +60,32 @@ export const AboutPage = () => {
                     <h1
                         style={{
                             textAlign: "center",
-                            margin: "1em 1em 1em 1em",
-                            color: "#6372ff",
-                        }}
-                    >
-                        Where our students end up
+                            margin: "0em 1em 1em 1em",
+                            color: "#333",
+                        }}>
+                        Where our members work
                     </h1>
-                    <div className="companies">
-                        {JsonData.About.Companies
-                            ? JsonData.About.Companies.map((d, i) => (
-                                  <div className="">
-                                      <img src={d} alt="img" />
-                                  </div>
-                              ))
-                            : "loading"}
+                    <div className="marquee">
+                        <div className="marquee--inner">
+                            <div className="companies">
+                            {JsonData.About.Companies
+                                ? JsonData.About.Companies.map((d, i) => (
+                                        <div className="">
+                                            <img src={d} alt="img" />
+                                        </div>
+                                    ))
+                                : "loading"}
+                            </div>
+                            <div className="companies">
+                                {JsonData.About.Companies
+                                ? JsonData.About.Companies.map((d, i) => (
+                                        <div className="">
+                                            <img src={d} alt="img" />
+                                        </div>
+                                    ))
+                                : "loading"}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

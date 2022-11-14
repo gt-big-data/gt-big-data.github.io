@@ -56,7 +56,7 @@ export const AlumniPage = (props) => {
             {year}
           </h1> */}
 
-          <div id='row' className="cardrow ">
+          <div id='row' className="cardrow">
             {JsonData.Alumni
               ? JsonData.Alumni.map((d, i) => (
                 <div className='card col-xs-4'>
@@ -64,9 +64,9 @@ export const AlumniPage = (props) => {
                   <div className='caption'>
                     <h4>{d.name}</h4>
                     <p>{d.title}</p>
-                    <div class="social-link" style={{display:'inline'}}>
-                      {/* if linkin exists, then show the icon */}
-                      {d.linkedin ? <a href={d.linkedin} className="linkedin"><i class="fa fa-linkedin"></i></a> : ""}
+                    <div class="social-links" style={{display:'inline'}}>
+                      {/* if linkedin exists, then show the icon */}
+                      {d.linkedin ? <a href={d.linkedin} className="linkedin" target={"_blank"}><i class="fa fa-linkedin"></i></a> : ""}
                       {/* {d.instagram ? <a href={d.instagram} className="insta"><i class="fa fa-instagram"></i></a> : ""} */}
                       {/* {d.twitter ? <a href={d.twitter} className="twitter"><i class="fa fa-twitter"></i></a> : ""} */}
                     </div>
