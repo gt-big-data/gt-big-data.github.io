@@ -1,137 +1,136 @@
 {
   "Header": {
-      "title": "Big Data Big Impact",
-      "paragraph": "Developing intelligent and data-driven solutions to global challenges."
+    "title": "Big Data Big Impact",
+    "paragraph": "Developing intelligent and data-driven solutions to global challenges."
   },
   "About": {
-      "keywords": "Impact, Excellence, and Growth",
-      "paragraph1": "We are a Georgia Institute of Technology College of Computing (CoC) organization focused on leveraging big data to provide insight into some of the world's greatest social challenges, from poverty to climate action.",
-      "paragraph2": "We pride ourselves on offering students valuable hands-on opportunities to pursue excellence and growth in computer science and career development.",
-      "Why": [
-          "Social Impact",
-          "Project-based Learning",
-          "Educational Workshops",
-          "Collaborate with like-minded students"
-      ],
-      "Why2": [
-          "Leadership opportunities",
-          "Startup-like operations",
-          "Networking Events",
-          "Tech Talks and More!"
-      ],
-      "whyBDBI": {
-          "impactCard": {
-              "text": "Contribute to social impact",
-              "img": "img/aboutIcons/solidarity.png"
-          },
-          "skillCard": {
-              "text": "Improve software development skills",
-              "img": "img/aboutIcons/skills.png"
-          },
-          "professionalCard": {
-              "text": "Grow with mentorship opportunities",
-              "img": "img/aboutIcons/techtalk.png"
-          },
-          "networkCard": {
-              "text": "Network at social events and more!",
-              "img": "img/aboutIcons/network.png"
-          }
+    "keywords": "Impact, Excellence, and Growth",
+    "paragraph1": "We are a Georgia Institute of Technology College of Computing (CoC) organization focused on leveraging big data to provide insight into some of the world's greatest social challenges, from poverty to climate action.",
+    "paragraph2": "We pride ourselves on offering students valuable hands-on opportunities to pursue excellence and growth in computer science and career development.",
+    "Why": [
+      "Social Impact",
+      "Project-based Learning",
+      "Educational Workshops",
+      "Collaborate with like-minded students"
+    ],
+    "Why2": [
+      "Leadership opportunities",
+      "Startup-like operations",
+      "Networking Events",
+      "Tech Talks and More!"
+    ],
+    "whyBDBI": {
+      "impactCard": {
+        "text": "Contribute to social impact",
+        "img": "img/aboutIcons/solidarity.png"
       },
-      "projRoles": {
-          "analysisRole": {
-              "title": "Analysis",
-              "desc": "If you like Data Science and ML, this role is for you! You will analyze rich data and develop models that translates to social impact."
-          },
-          "platformRole": {
-              "title": "Platform",
-              "desc": "If you are interested in API development, this role is for you! You will design the backend that helps power the projects' web app."
-          },
-          "datavizRole": {
-              "title": "DataViz",
-              "desc": "If you love compelling data visualizations, this role is for you! You will develop compelling visualizations and the front-end that bring the project to life."
-          }
+      "skillCard": {
+        "text": "Improve software development skills",
+        "img": "img/aboutIcons/skills.png"
       },
-      "Gallery": [
-        {
-            "title": "Marketing",
-            "desc": "The marketing team exercises its creativity to effectively advertise club events, such as socials, game nights, and more! ",
-            "img": "img/commIcons/commicon.png",
-            "skills": "Graphic design, Event planning, Content creation, Analytics"
-        },
-        {
-            "title": "Web Development",
-            "desc": "The web development team maintains BDBI's online presence, including designing this website!",
-            "img": "img/commIcons/commicon.png",
-            "skills": "Front-end and backend development, Problem-solving"
-        },
-        {
-            "title": "Sponsorship",
-            "desc": "The sponsorship team connects BDBI with local nonprofits and Atlanta-based companies to partner with for data science projects!",
-            "img": "img/commIcons/commicon.png",
-            "skills": "Communication, Planning"
-        },
-        {
-            "title": "Internal Ops",
-            "desc": "The internal operations team manages club operations and resources, ensuring the best experience for all!",
-            "img": "img/commIcons/commicon.png",
-            "skills": "Leadership, Communication"
-        }
-      ],
-      "Events": [
-        "Project Demos",
-        "Resume reviews",
-        "Tech Talks",
-        "Social events",
-        "Game nights",
-        "And more!"
-      ],
-      "Companies": [
-        "img/company_icons/apple.png",
-        "img/company_icons/amazon.png",
-        "img/company_icons/meta.png",
-        "img/company_icons/google.png",
-        "img/company_icons/msft.png"
-      ],
-      "Speakers": [
-        {
-          "img": "img/speakers/jan.jpeg",
-          "title": "Director of Data Science at Honeywell Connected Enterprise",
-          "name": "Jan Zirnstein",
-          "linkedin": "https://www.linkedin.com/in/janzirnstein/"
-        },
-        {
-          "img": "img/speakers/vijay.jpg",
-          "title": "Lead Data Scientist at Honeywell",
-          "name": "Vijay Kumar Ravi",
-          "linkedin": "https://www.linkedin.com/in/vijaykumarravi/"
-        },
-        {
-          "img": "img/speakers/becca.jpg",
-          "title": "Analytics Engagement Manager at Honeywell",
-          "name": "Becca Smith",
-          "linkedin": "https://www.linkedin.com/in/becca-smith-40ab6329/"
-        },
-        {
-          "img": "img/speakers/alpesh.png",
-          "title": "Director of Architecture at Honeywell",
-          "name": "Alpesh Desai",
-          "linkedin": "https://www.linkedin.com/in/alpeshdesai/"
-        },
-        {
-          "img": "img/speakers/tim.jpeg",
-          "title": "President of Peredom",
-          "name": "Timothy Hanline",
-          "linkedin": "https://www.linkedin.com/in/timothy-hanline/"
-        }
-      ]
+      "professionalCard": {
+        "text": "Grow with mentorship opportunities",
+        "img": "img/aboutIcons/techtalk.png"
+      },
+      "networkCard": {
+        "text": "Network at social events and more!",
+        "img": "img/aboutIcons/network.png"
+      }
+    },
+    "projRoles": {
+      "analysisRole": {
+        "title": "Analysis",
+        "desc": "If you like Data Science and ML, this role is for you! You will analyze rich data and develop models that translates to social impact."
+      },
+      "platformRole": {
+        "title": "Platform",
+        "desc": "If you are interested in API development, this role is for you! You will design the backend that helps power the projects' web app."
+      },
+      "datavizRole": {
+        "title": "DataViz",
+        "desc": "If you love compelling data visualizations, this role is for you! You will develop compelling visualizations and the front-end that bring the project to life."
+      }
+    },
+    "Gallery": [
+      {
+        "title": "Marketing",
+        "desc": "The marketing team exercises its creativity to effectively advertise club events, such as socials, game nights, and more! ",
+        "img": "img/commIcons/commicon.png",
+        "skills": "Graphic design, Event planning, Content creation, Analytics"
+      },
+      {
+        "title": "Web Development",
+        "desc": "The web development team maintains BDBI's online presence, including designing this website!",
+        "img": "img/commIcons/commicon.png",
+        "skills": "Front-end and backend development, Problem-solving"
+      },
+      {
+        "title": "Sponsorship",
+        "desc": "The sponsorship team connects BDBI with local nonprofits and Atlanta-based companies to partner with for data science projects!",
+        "img": "img/commIcons/commicon.png",
+        "skills": "Communication, Planning"
+      },
+      {
+        "title": "Internal Ops",
+        "desc": "The internal operations team manages club operations and resources, ensuring the best experience for all!",
+        "img": "img/commIcons/commicon.png",
+        "skills": "Leadership, Communication"
+      }
+    ],
+    "Events": [
+      "Project Demos",
+      "Resume reviews",
+      "Tech Talks",
+      "Social events",
+      "Game nights",
+      "And more!"
+    ],
+    "Companies": [
+      "img/company_icons/apple.png",
+      "img/company_icons/amazon.png",
+      "img/company_icons/meta.png",
+      "img/company_icons/google.png",
+      "img/company_icons/msft.png"
+    ],
+    "Speakers": [
+      {
+        "img": "img/speakers/jan.jpeg",
+        "title": "Director of Data Science at Honeywell Connected Enterprise",
+        "name": "Jan Zirnstein",
+        "linkedin": "https://www.linkedin.com/in/janzirnstein/"
+      },
+      {
+        "img": "img/speakers/vijay.jpg",
+        "title": "Lead Data Scientist at Honeywell",
+        "name": "Vijay Kumar Ravi",
+        "linkedin": "https://www.linkedin.com/in/vijaykumarravi/"
+      },
+      {
+        "img": "img/speakers/becca.jpg",
+        "title": "Analytics Engagement Manager at Honeywell",
+        "name": "Becca Smith",
+        "linkedin": "https://www.linkedin.com/in/becca-smith-40ab6329/"
+      },
+      {
+        "img": "img/speakers/alpesh.png",
+        "title": "Director of Architecture at Honeywell",
+        "name": "Alpesh Desai",
+        "linkedin": "https://www.linkedin.com/in/alpeshdesai/"
+      },
+      {
+        "img": "img/speakers/tim.jpeg",
+        "title": "President of Peredom",
+        "name": "Timothy Hanline",
+        "linkedin": "https://www.linkedin.com/in/timothy-hanline/"
+      }
+    ]
   },
   "Sponsors": {
     "Diamond": [
       "img/company_icons/google.png",
       "img/company_icons/resizedhoneywell.png"
     ],
-    "Platinum": [
-    ],
+    "Platinum": [],
     "Past": [
       "img/company_icons/meta.png",
       "img/company_icons/msft.png",
@@ -224,7 +223,7 @@
       "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
       "instagram": "https://www.instagram.com/eshanichauk/"
     },
-    
+
     {
       "img": "img/team/AbhinavSattiraju.png",
       "name": "Abhinav Sattiraju",
@@ -363,51 +362,51 @@
     }
   ],
   "Alumni": [
-      {
-        "img": "img/alumni/VamsiDesu.jfif",
-        "name": "Vamsi Desu",
-        "linkedin": "https://www.linkedin.com/in/vamsidesu/"
-      },
-      {
-        "img": "img/alumni/AbhiJoshi.png",
-        "name": "Abhinav Joshi",
-        "linkedin": "https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
-      },
-      {
-        "img": "img/alumni/PranavKhorana.png",
-        "name": "Pranav Khorana",
-        "linkedin": "https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
-      },
-      {
-        "img": "img/alumni/PatrickLiu.png",
-        "name": "Patrick Liu",
-        "linkedin": "https://www.linkedin.com/in/patrickliu2000/"
-      },
-      {
-        "img": "img/alumni/RahulChawla.png",
-        "name": "Rahul Chawla",
-        "linkedin": "https://www.linkedin.com/in/rahul-chawla-017059171/"
-      },
-      {
-        "img": "img/alumni/PranavKhorana.png",
-        "name": "Davon Prewitt",
-        "linkedin": "https://www.linkedin.com/in/davonprewitt/"
-      },
-      {
-        "img": "img/alumni/PranavKhorana.png",
-        "name": "Allison Nakazawa",
-        "linkedin": "https://www.linkedin.com/in/allison-nakazawa/"
-      },
-      {
-        "img": "img/alumni/PranavKhorana.png",
-        "name": "Rahul Zhade",
-        "linkedin": "https://www.linkedin.com/in/rahul-zhade/"
-      },
-      {
-        "img": "img/alumni/KhelanModi.png",
-        "name": "Khelan Modi",
-        "linkedin": "https://www.linkedin.com/in/khelan-modi/"
-      }
+    {
+      "img": "img/alumni/VamsiDesu.jfif",
+      "name": "Vamsi Desu",
+      "linkedin": "https://www.linkedin.com/in/vamsidesu/"
+    },
+    {
+      "img": "img/alumni/AbhiJoshi.png",
+      "name": "Abhinav Joshi",
+      "linkedin": "https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
+    },
+    {
+      "img": "img/alumni/PranavKhorana.png",
+      "name": "Pranav Khorana",
+      "linkedin": "https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
+    },
+    {
+      "img": "img/alumni/PatrickLiu.png",
+      "name": "Patrick Liu",
+      "linkedin": "https://www.linkedin.com/in/patrickliu2000/"
+    },
+    {
+      "img": "img/alumni/RahulChawla.png",
+      "name": "Rahul Chawla",
+      "linkedin": "https://www.linkedin.com/in/rahul-chawla-017059171/"
+    },
+    {
+      "img": "img/alumni/PranavKhorana.png",
+      "name": "Davon Prewitt",
+      "linkedin": "https://www.linkedin.com/in/davonprewitt/"
+    },
+    {
+      "img": "img/alumni/PranavKhorana.png",
+      "name": "Allison Nakazawa",
+      "linkedin": "https://www.linkedin.com/in/allison-nakazawa/"
+    },
+    {
+      "img": "img/alumni/PranavKhorana.png",
+      "name": "Rahul Zhade",
+      "linkedin": "https://www.linkedin.com/in/rahul-zhade/"
+    },
+    {
+      "img": "img/alumni/KhelanModi.png",
+      "name": "Khelan Modi",
+      "linkedin": "https://www.linkedin.com/in/khelan-modi/"
+    }
   ],
   "Features": [
     {
@@ -462,15 +461,14 @@
       "name": "Timothy Hanline",
       "linkedin": "https://www.linkedin.com/in/timothy-hanline/"
     }
-
   ],
   "Projects": {
     "2021-2022": [
       {
         "img": "",
-        "name": "Project 1",
-        "description": "include social impact and what the project does",
-        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+        "name": "Early Cancer Detection",
+        "description": " We are creating a system that can help entry-level doctors or doctors with less experience/resources make more informed decisions on potential cancer diagnoses. Equipped with support from machine learning algorithms trained on hundreds of patients, doctors can feel more comfortable in their diagnoses and treatment plans.",
+        "github": "https://github.com/gt-big-data/cancer-detection"
       },
       {
         "img": "",
