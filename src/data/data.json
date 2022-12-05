@@ -1,7 +1,7 @@
 {
   "Header": {
-      "title": "Big Data Big Impact",
-      "paragraph": "Developing intelligent and data-driven solutions to global challenges."
+    "title": "Big Data Big Impact",
+    "paragraph": "Developing intelligent and data-driven solutions to global challenges."
   },
   "About": {
       "keywords": "Impact, Excellence, and Growth",
@@ -136,8 +136,7 @@
       "img/company_icons/google.png",
       "img/company_icons/resizedhoneywell.png"
     ],
-    "Platinum": [
-    ],
+    "Platinum": [],
     "Past": [
       "img/company_icons/meta.png",
       "img/company_icons/msft.png",
@@ -206,7 +205,7 @@
       "linkedin": "https://www.linkedin.com/in/eshani-chauk/",
       "instagram": "https://www.instagram.com/eshanichauk/"
     },
-    
+
     {
       "img": "img/team/AbhinavSattiraju.png",
       "name": "Abhinav Sattiraju",
@@ -444,9 +443,23 @@
       "name": "Timothy Hanline",
       "linkedin": "https://www.linkedin.com/in/timothy-hanline/"
     }
-
   ],
   "Projects": {
+    "2022-2023": [
+      {
+        "img": "",
+        "lead": "Eshani Chauk",
+        "name": "Early Cancer Detection",
+        "description": " We are creating a system that can help entry-level doctors or doctors with less experience/resources make more informed decisions on potential cancer diagnoses. Equipped with support from machine learning algorithms trained on hundreds of patients, doctors can feel more comfortable in their diagnoses and treatment plans.",
+        "github": "https://github.com/gt-big-data/cancer-detection"
+      },
+      {
+        "img": "",
+        "name": "Project 2",
+        "description": "include social impact and what the project does",
+        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
+      }
+    ],
     "2021-2022": [
       {
         "img": "",
@@ -462,20 +475,6 @@
       }
     ],
     "2020-2021": [
-      {
-        "img": "",
-        "name": "Project 1",
-        "description": "include social impact and what the project does",
-        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-      },
-      {
-        "img": "",
-        "name": "Project 2",
-        "description": "include social impact and what the project does",
-        "github": "https://github.com/tanishqsandhu/gt-bigdata-website"
-      }
-    ],
-    "2019-2020": [
       {
         "img": "",
         "name": "Project 1",
