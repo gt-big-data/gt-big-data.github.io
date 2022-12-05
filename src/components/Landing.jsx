@@ -4,7 +4,7 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import JsonData from "../data/data.json";
 import { Testimonials } from "./testimonials";
-import { CarouselTest } from "./carousel/CarouselTest";
+import { CarouselComponent } from "./carousel/CarouselComponent";
 
 const TestimonialCard = ({ children }) => {
     return (
@@ -18,26 +18,22 @@ export const Landing = () => {
     const [landingPageData, setLandingPageData] = useState({});
     useEffect(() => {
         setLandingPageData(JsonData);
+        window.scrollTo(0,0);
     }, []);
 
     return (
         <div>
             <Navigation />
-            <div className="landing">
-                <CarouselTest />
+            <div className="landing" style={{"marginBottom": "-2em"}}>
                 <Header data={JsonData.Header} />
             </div>
-            <h2 className="testimonial">
-                <span>TESTIMONIALS</span>
-            </h2>
+            <h1 className="testimonial-text" style={
+                {"textAlign": "center","color": "rgb(51, 51, 51)","margin": "2em 1em 1em"}
+            }>
+                Testimonials
+            </h1>
             <div className="container">
-                {/* <div className="row">
-                    <TestimonialCard>"{JsonData.Testimonials[0].text}"</TestimonialCard>
-                    <TestimonialCard>"{JsonData.Testimonials[1].text}"</TestimonialCard>
-                    <TestimonialCard>"{JsonData.Testimonials[2].text}"</TestimonialCard>
-                </div> */}
-                <Testimonials data= {JsonData.Testimonials}></Testimonials>
-                <h1 style={{'textAlign':'center'}}>COMING SOON</h1>
+                <Testimonials data= {JsonData.Testimonials}></Testimonials> 
             </div>
             <Footer data={JsonData.Contact} />
         </div>

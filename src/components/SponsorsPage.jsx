@@ -7,14 +7,20 @@ import { PlatinumSponsors } from "./platinum";
 import JsonData from "../data/data.json";
 import { PastSponsors } from "./past";
 import sponsorPDF from '../data/BDBISponsorshipPacket.pdf'
+import { useEffect } from "react";
 
 export const SponsorsPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
     return (
         <div>
         <div id='sponsors' className="text-center">
                 <div className='col-md-8 col-md-offset-2 section-title'>
                     <h2>Sponsors</h2>
-                    <div className="keywords-sponsors" style={{color: "#6372ff"}}>Thanks for making what we do possible!</div>
+                    <div className="keywords-sponsors" style={{color: "#194eaa"}}>Thanks for making what we do possible!</div>
                     <p><br></br>Click the button below to learn how to become a sponsor!</p>
                     <div className="sponsorButtons">
                         {/* <a href="" class="btn btn-sponsors btn-custom">View Information</a> */}

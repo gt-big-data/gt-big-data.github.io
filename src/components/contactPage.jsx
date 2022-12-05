@@ -1,6 +1,6 @@
 import { Navigation } from "./navigation";
 import { Footer } from "./footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { send } from "emailjs-com";
 
 const initialState = {
@@ -100,7 +100,7 @@ const Contact = (props) => {
                                     <p className='help-block text-danger'></p>
                                 </div>
                                 <div id='success'></div>
-                                    <button type='submit' className='btn btn-custom btn-lg'>
+                                    <button type='submit' className='btn btn-custom btn-lg' style={{"marginBottom": "8em"}}>
                                         Send Message
                                  </button>
                             </form>
@@ -120,6 +120,10 @@ const Contact = (props) => {
 
 
 export const ContactPage = (props) => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
 
     return (
         <div>
