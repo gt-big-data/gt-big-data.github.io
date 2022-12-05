@@ -452,6 +452,7 @@
         "name": "Early Cancer Detection",
         "description": " We are creating a system that can help entry-level doctors or doctors with less experience/resources make more informed decisions on potential cancer diagnoses. Equipped with support from machine learning algorithms trained on hundreds of patients, doctors can feel more comfortable in their diagnoses and treatment plans.",
         "github": "https://github.com/gt-big-data/cancer-detection"
+        "technologies": ["Python"]
       },
       {
         "img": "",
