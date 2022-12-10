@@ -14,7 +14,7 @@ To add all dependencies
 
 To run in localhost
 
-## Deployment (After Committting to Main!)
+## Deployment (After Committing to Main!)
 
 ### 1. `yarn run build`
 
