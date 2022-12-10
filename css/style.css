@@ -1752,6 +1752,7 @@ label {
 #alumni .social-links {
     position: absolute;
     left: 66px;
+    top: 75px;
 }
 
 #team .social-links a,
