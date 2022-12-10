@@ -48,27 +48,15 @@ export const AlumniPage = (props) => {
           </p>
         </div>
         <div className="container">
-          {/* I'm not sure the year they were in BDBI */}
-          {/* <div className="btn-group">
-            {
-              years.map(num => (
-                <YearButton year={num} />
-              ))
-            }
-          </div>
-          <h1 className="year" style={{ "margin": "1em 0em 1em 0em" }}>
-            {year}
-          </h1> */}
-
           <div id='row' className="cardrow">
             {JsonData.Alumni
               ? JsonData.Alumni.map((d, i) => (
                 <div className='card col-xs-4'>
-                  <img alt="" src={d.img} style={{marginTop:'35px'}}/>
+                  <img alt="" src={d.img}/>
                   <div className='caption'>
                     <h4>{d.name}</h4>
                     <p>{d.title}</p>
-                    <div class="social-links" style={{display:'inline'}}>
+                    <div class="social-links">
                       {/* if linkedin exists, then show the icon */}
                       {d.linkedin ? <a href={d.linkedin} className="linkedin" target={"_blank"}><i class="fa fa-linkedin"></i></a> : ""}
                       {/* {d.instagram ? <a href={d.instagram} className="insta"><i class="fa fa-instagram"></i></a> : ""} */}

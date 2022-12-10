@@ -1,7 +1,3 @@
-// reuse for leadership and speakers
-
-// speaker name and social links to right
-
 export const Person = (props) => {
     return (
         <div className="person">
@@ -18,13 +14,13 @@ export const Person = (props) => {
                 >
                     <i className="fa fa-linkedin fa-2x"></i>
                 </a>
-                <a
+                {/* <a
                     href={props.tw ? props.tw : "/"}
                     target="_blank"
                     rel="noreferrer"
                 >
                     <i className="fa fa-twitter fa-2x"></i>
-                </a>
+                </a> */}
             </div>
         </div>
     );

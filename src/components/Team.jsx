@@ -22,7 +22,7 @@ export const Team = (props) => {
         </div>
 
         <div className="container">
-          <div id='row' className="cardrow ">
+          <div id='row' className="cardrow">
             {JsonData.Team
               ? JsonData.Team.map((d, i) => (
                 <div className='card col-xs-4'>

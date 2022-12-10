@@ -78,7 +78,7 @@ export const ProjRoles = (props) => {
                         margin: "2em 1em 1em 1em",
                     }}
                 >
-                    Project roles
+                    Project Roles
                 </h1>
                 <span className="centerRole">
                     <h3 className="centerRoleInfo">

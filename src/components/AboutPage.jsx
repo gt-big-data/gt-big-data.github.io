@@ -40,7 +40,7 @@ export const AboutPage = () => {
                                 color: "#ffffff",
                             }}
                         >
-                            Past speakers
+                            Past Speakers
                         </h1>
                         <div>
                             <ul className="speakers">
@@ -51,7 +51,6 @@ export const AboutPage = () => {
                                                   name={d.name}
                                                   title={d.title}
                                                   ld={d.linkedin}
-                                                  tw={d.twitter}
                                                   image={d.img}
                                               ></Person>
                                           </div>
@@ -70,7 +69,7 @@ export const AboutPage = () => {
                             margin: "0em 1em 1em 1em",
                             color: "#333",
                         }}>
-                        Where our members work
+                        Where Our Members Work
                     </h1>
                     <div className="marquee">
                         <div className="marquee--inner">

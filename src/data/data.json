@@ -100,6 +100,24 @@
     ],
     "Speakers": [
       {
+        "img": "img/speakers/gowtam.png",
+        "title": "Engineering Lead, Hubspot",
+        "name": "Gowtam Lal",
+        "linkedin": "https://www.linkedin.com/in/gowtam-lal-98786552/"
+      },
+      {
+        "img": "img/speakers/devavret.png",
+        "title": "Senior Software Developer for RAPIDS, NVIDIA",
+        "name": "Devavret Makkar",
+        "linkedin": "https://www.linkedin.com/in/devavret-makkar-87130921/"
+      },
+      {
+        "img": "img/speakers/paul.png",
+        "title": "Senior Data Scientist at NVIDIA",
+        "name": "Paul Mahler",
+        "linkedin": "https://www.linkedin.com/in/paul-mahler-44280620/"
+      },
+      {
         "img": "img/speakers/jan.jpeg",
         "title": "Director of Data Science at Honeywell Connected Enterprise",
         "name": "Jan Zirnstein",
@@ -353,47 +371,86 @@
     {
       "img": "img/alumni/VamsiDesu.jfif",
       "name": "Vamsi Desu",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/vamsidesu/"
     },
     {
       "img": "img/alumni/AbhiJoshi.png",
       "name": "Abhinav Joshi",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/abhinav-joshi-3b1b29170/"
     },
     {
       "img": "img/alumni/PranavKhorana.png",
       "name": "Pranav Khorana",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/pkhorana/"
     },
     {
       "img": "img/alumni/PatrickLiu.png",
       "name": "Patrick Liu",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/patrickliu2000/"
     },
     {
       "img": "img/alumni/RahulChawla.jpg",
       "name": "Rahul Chawla",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/rahul-chawla-017059171/"
     },
     {
       "img": "img/alumni/DavonPrewitt.jfif",
       "name": "Davon Prewitt",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/davonprewitt/"
     },
     {
       "img": "img/alumni/AllisonNakazawa.jpg",
       "name": "Allison Nakazawa",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/allison-nakazawa/"
     },
     {
       "img": "img/alumni/RahulZhade.jpg",
       "name": "Rahul Zhade",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/rahul-zhade/"
     },
     {
       "img": "img/alumni/KhelanModi.png",
       "name": "Khelan Modi",
+      "title": "",
       "linkedin": "https://www.linkedin.com/in/khelan-modi/"
+    },
+    {
+      "img": "img/alumni/BrendenWaits.png",
+      "name": "Brenden Waits",
+      "title": "",
+      "linkedin": "https://www.linkedin.com/in/brendenwaits/"
+    },
+    {
+      "img": "img/alumni/MatthewErsted.png",
+      "name": "Matthew Ersted",
+      "title": "",
+      "linkedin": "https://www.linkedin.com/in/matthew-ersted-abb13a7a/"
+    },
+    {
+      "img": "img/alumni/PatrickViolette.png",
+      "name": "Patrick Violette",
+      "title": "",
+      "linkedin": "https://www.linkedin.com/in/patrick-violette-29998356/"
+    },
+    {
+      "img": "img/alumni/FaisalAnimashaun.png",
+      "title": "",
+      "name": "Faisal Animashaun",
+      "linkedin": "https://www.linkedin.com/in/faisalani/"
+    },
+    {
+      "img": "img/alumni/PhillippeLaban.png",
+      "title": "",
+      "name": "Philippe Laban",
+      "linkedin": "https://www.linkedin.com/in/philippe-laban-b5a59b66/"
     }
   ],
   "Features": [
