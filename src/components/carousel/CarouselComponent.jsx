@@ -20,9 +20,6 @@ export const CarouselComponent = () => {
       <div className="gradient">
         <Slider {...settings}>
           <Slide>
-            <StyledImage src="img/carousel/bdbi1.jpg" />
-          </Slide>
-          <Slide>
             <StyledImage src="img/carousel/bdbi14.jpg" />
           </Slide>
           <Slide>
