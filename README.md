@@ -14,11 +14,11 @@ To add all dependencies
 
 To run in localhost
 
-## Deployment (After Committing to Main!)
+## Deployment (After Committing to Master!)
 
 ### 1. `yarn run build`
 
-Creates productionized build. Run after a successful to main, ensure there are no errors on localhost before.
+Creates productionized build. Run after a successful commit to master branch, ensure there are no errors on localhost before.
 
 ### 2. `yarn run deploy`
 
